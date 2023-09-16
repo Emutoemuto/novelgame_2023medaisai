@@ -1,6 +1,6 @@
 [_tb_system_call storage=system/_scene1.ks]
 
-[bg  storage="教室.png"  time="1000"  ]
+[bg  storage="kyousitu.png"  time="1000"  ]
 [tb_show_message_window  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="学校_kobayuu.ogg"  ]
 [tb_start_text mode=1 ]
@@ -14,14 +14,14 @@
 びく！[p]
 [_tb_end_text]
 
-[chara_show  name="女友達"  time="1000"  wait="true"  storage="chara/1/女友達_笑顔幅500.png"  width="500"  height="708"  left="285"  top="131"  reflect="false"  ]
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達.png"  width="425"  height="603"  left="330"  top="106"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #
 なんだ、ゆうこか。どうしたの？[p]
 この子の名前はゆうこ。元気でおちゃめな性格だが、毎度事件を起こしてはこっちが被害を被る腐れ縁だ。[p]
 [_tb_end_text]
 
-[chara_mod  name="女友達"  time="600"  cross="true"  storage="chara/1/女友達_怒り顔幅500.png"  ]
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_怒り顔.png"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
 どうしたの、じゃないよ！[p]
@@ -30,8 +30,8 @@
 分かったよ[p]
 [_tb_end_text]
 
-[bg  time="1000"  method="fadeInRight"  storage="rouka.jpg"  ]
-[chara_mod  name="女友達"  time="600"  cross="true"  storage="chara/1/女友達_真顔幅500.png"  ]
+[bg  time="1000"  method="fadeInRight"  storage="教室の廊下.png"  ]
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達.png"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
 ねえ、隕石のかけらが日本にも降るかもしれないっていうニュース流れてたの知ってる？[p]
@@ -42,7 +42,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="女友達"  time="600"  cross="true"  storage="chara/1/女友達_ニヤツキ幅500.png"  ]
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_ニヤツキ.png"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
 ねね、今から一緒に見に行かない？[p]
@@ -53,7 +53,7 @@
 [s  ]
 *yes
 
-[chara_mod  name="女友達"  time="600"  cross="true"  storage="chara/1/女友達_笑顔幅500.png"  ]
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達.png"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
 おおー、そう言ってくれると思ってたよ！[p]
@@ -62,7 +62,7 @@
 [jump  storage="scene1.ks"  target="*common"  ]
 *no
 
-[chara_mod  name="女友達"  time="600"  cross="true"  storage="chara/1/女友達_怒り顔幅500.png"  ]
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_怒り顔.png"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
 むーー！[p]
@@ -80,13 +80,13 @@
 でも、行くのは放課後になってからね。今から行ったら遅刻しちゃうよ？[p]
 [_tb_end_text]
 
-[chara_mod  name="女友達"  time="600"  cross="true"  storage="chara/1/女友達_困り顔幅500.png"  ]
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_困り顔_(1).png"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
 しょうがないな、分かったよ。[p]
 [_tb_end_text]
 
-[chara_hide  name="女友達"  time="1000"  wait="false"  pos_mode="true"  ]
+[chara_hide  name="ゆうこ"  time="1000"  wait="false"  pos_mode="true"  ]
 [jump  storage="UrayamaScene2.ks"  target="*start"  ]
 [s  ]
