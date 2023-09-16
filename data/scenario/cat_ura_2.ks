@@ -88,4 +88,5 @@
 くぐもった声は、小さな鈴のようにからりとしていた。[p]
 [_tb_end_text]
 
+[chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="cat_ura_3.ks"  target=""  ]
