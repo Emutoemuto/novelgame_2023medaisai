@@ -508,4 +508,4 @@ CMの音ではない。なぜなら、その投げかけは女性の声だった
 
 [l  ]
 [delay  speed="30"  ]
-[jump  storage="cat_ura_1.ks"  target=""  ]
+[jump  storage="cat_ura_2.ks"  target=""  ]
