@@ -1,11 +1,13 @@
 [_tb_system_call storage=system/_cat_ura_3.ks]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_通常.png"  width="680"  height="680"  left="154"  top="-12"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #
 家を出て少しすると、山間を拓いた小道につながる。[p]
-そこを道なりに進んでいくと、夕方にゆうこがおつかいをしたコンビニがある。[p]
+そこを道なりに進むと、夕方に  ゆうこ がおつかいをしたコンビニがある。[p]
 俺は右肩にずっしりと重みを感じながら、言葉を探していた。[p]
 [_tb_end_text]
 
@@ -62,7 +64,7 @@
 「さっきのあの、ゆうこがゆうこじゃないって話」[p]
 「あれ、どういう意味？」[p]
 ゆうこはゆうこだ。腐れ縁の幼馴染。ずっと家に入り浸っているお転婆な奴。[p]
-全く意味を取れない。[p]
+ねこが何を言いたいのか、その意味が全く取れない。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -115,6 +117,18 @@
 しっかり、という言葉には似つかわしくない。とても弱く儚い青色の声だった。[p]
 [_tb_end_text]
 
+[chara_mod  name="ねこ"  time="600"  cross="true"  storage="chara/2/閉猫_閉眼.png"  ]
+[tb_start_text mode=1 ]
+#
+人通りが少ない夜道。[p]
+しかし、前方から人影が近づいてくる。[p]
+街灯に照らされたその姿は、黒いスーツを着た女性だった。[p]
+その人は、両手に淡い色をした花束を抱え、ゆっくりと歩みを進めていた。[p]
+その荒涼とした様子は俺の目に嫌に映った。[p]
+一瞥するのも癪に思い、思わず目を伏せて通り過ぎる。[p]
+[_tb_end_text]
+
+[chara_mod  name="ねこ"  time="600"  cross="true"  storage="chara/2/閉猫_通常.png"  ]
 [tb_start_text mode=1 ]
 #
 そろそろだ。目の前にポップな色彩と煌々とした灯りを垂れ流している建物が見えた。[p]
@@ -138,8 +152,9 @@
 「あれ？　ご飯売ってるじゃん」[p]
 俺は思わず感想が口から漏れ出てしまった。[p]
 ゆうこは売っていなかったと言っていたのに、目の前の光景はそれを無機質に否定してくる。[p]
-見逃したのだろうか。急いでいたようだったから、お転婆なあいつのことだからありえる。[p]
-しかし、売り場も小さくはない。決して見逃しやすいわけではない。[p]
+もしかして見逃したのだろうか。[p]
+急いでいたようだったから、お転婆なあいつのことだからありえる。[p]
+しかし、売り場は決して小さくはなく、見逃しやすくはない。[p]
 それでは、商品の補充が入ったのだろうか。[p]
 いや、それにしては残っている商品が少ない。棚の半分ほどしか在庫は見えない。[p]
 補充から2時間も経っていないとしたら、この捌け具合は異常だろう。[p]
@@ -147,11 +162,192 @@
 本当にゆうこは見逃しただけなのか……？[p]
 [_tb_end_text]
 
-[chara_mod  name="ねこ"  time="600"  cross="true"  storage="chara/2/閉猫_閉眼.png"  ]
+[chara_mod  name="ねこ"  time="600"  cross="true"  storage="chara/2/閉猫_驚き.png"  ]
 [tb_start_text mode=1 ]
 #ねこ
 「どうしたの？　はやく買わないの？」[p]
 「私まぐろ缶とチキン缶が食べてみたいかなぁ」[p]
+#
+ねこは目を見開きながら弾むような鼻歌を歌っている。[p]
+その気の抜けた曲に、どうにも毒気が抜かれる。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+「分かったよ。ただし、一回で食べようとするなよ」[p]
+#ねこ
+「私はあんたほどせっかちじゃないもん」[p]
+「楽しみは取っておくものだもんね」[p]
+[_tb_end_text]
+
+[chara_mod  name="ねこ"  time="600"  cross="true"  storage="chara/2/閉猫_怪訝.png"  ]
+[chara_move  name="ねこ"  anim="false"  time="300"  effect="linear"  wait="true"  left="-93"  top="-7"  width="680"  height="680"  ]
+[wait  time="2000"  ]
+[tb_start_text mode=1 ]
+#？？？
+（あれ？　あんたここで何してるの？）[p]
+#
+聞き覚えのある声。[p]
+俺は声のほうを振り返り、その姿を視界に収める。[p]
 
 [_tb_end_text]
 
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達.png"  width="760"  height="1030"  left="350"  top="14"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#ゆうこ
+（あっ！　ねこちゃんのご飯か）[p]
+（さっき買いに行くって言ってたもんね）[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+ハツラツとしたゆうこの声がコンビニに響く。[p]
+その声はあまりにも遠慮がなく、周囲の迷惑になっていないか心配になるほどだった。[p]
+思わず辺りを見回す。[p]
+大丈夫。店員も気に留めていないようだ。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+「声がでけぇよ。ちょっとはセーブしろ」[p]
+#ゆうこ
+（あぁ、ごめんごめん）[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+ゆうこは謝罪を口にしたが、あまり悪びれていないようだ。[p]
+「あはは」と言いながら、口角を上げて後頭部を掻いている。[p]
+[_tb_end_text]
+
+*どうして？２
+
+[glink  color="black"  storage="cat_ura_3.ks"  size="20"  x="-8"  y="289"  width=""  height=""  text="どうしてここにいるんだ？"  _clickable_img=""  target="*どうして？"  ]
+[glink  color="black"  storage="cat_ura_3.ks"  size="20"  x="-9"  y="344"  width=""  height=""  text="夜に一人は危ないだろ"  _clickable_img=""  target="*夜に一人"  ]
+[glink  color="black"  storage="cat_ura_3.ks"  size="20"  x="-7"  y="400"  width=""  height=""  text="はよう家に帰れ"  _clickable_img=""  target="*はよう家に帰れ"  ]
+[s  ]
+*どうして？
+
+[tb_start_text mode=1 ]
+#ゆうこ
+（どうしてって……）[p]
+（そぅそぅ。あんたとねこちゃんのことが心配になったからだよ）[p]
+（放っておけないもんね）[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+ゆうこは腕を組みながら深々と頷いている。[p]
+ちょっとうざいな。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+「ご生憎さま。俺は俺でちゃんとねことコミュニケーションもとってるからね」[p]
+「お喋りもできるくらいだ」[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ゆうこ
+（ねことお喋りができるって……）[p]
+（あんた大丈夫？　病院行く？）[p]
+#
+くそ。なんともひどい言われようだ。[p]
+[_tb_end_text]
+
+[jump  storage="cat_ura_3.ks"  target="*common5"  ]
+*夜に一人
+
+[tb_start_text mode=1 ]
+#
+女子が一人で夜に徘徊するのは危ないだろう。[p]
+過保護な考えかもしれないが、心配はするに越したことはない。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ゆうこ
+（えぇ？　なに？　心配してくれてるの？）[p]
+#
+ゆうこは俺の心配につけあがったのか、表情を弛緩してにやにやとしている。[p]
+こいつはそういう奴だ。もう知ったこと。[p]
+「そうだよ。ちゃんと自分を大事にしろよ」[p]
+俺がそう言うと、ねこがバッグの中で大きくもぞもぞと動いた。[p]
+[_tb_end_text]
+
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  ]
+[tb_start_text mode=1 ]
+#ゆうこ
+（私、そういうあんたのこと好きだよ）[p]
+（ありがとうね）[p]
+ゆうこは歯を見せずに、クツリと笑って見せる。[p]
+
+[_tb_end_text]
+
+[jump  storage="cat_ura_3.ks"  target="*どうして？２"  ]
+*はよう家に帰れ
+
+[tb_start_text mode=1 ]
+#ゆうこ
+（そんな邪険に扱わなくたっていいじゃん）[p]
+（こうやって運命的な再開を果たしたんだから）[p]
+（もっと愛を囁いてもらってもいいんだよ？）[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+囁くか、ぼけ。[p]
+「家の人が心配するぞ」[p]
+#ゆうこ
+（大丈夫だよ。あんたと一緒にいたって言えば万事解決♪）[p]
+#
+こいつの家族の中で俺の株が下がってそうで嫌だな。[p]
+[_tb_end_text]
+
+[jump  storage="cat_ura_3.ks"  target="*どうして？２"  ]
+*common5
+
+[tb_start_text mode=1 ]
+#
+そうだ。[p]
+「ゆうこ。ここにちゃんとねこのご飯売ってるじゃん」[p]
+俺は目の前の棚を指した。[p]
+ゆうこは俺から視線を外し、腰の高さに陳列されているねこ用のご飯を一瞥した。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ゆうこ
+（あれ？　本当だ）[p]
+#
+「こんな見やすい場所に置いてるのに」[p]
+#ゆうこ
+（あぁ。ちょっと急いでたから見落としてたかも）[p]
+#
+急いだ結果、本文をまっとう出来ていないのだから仕方のない。[p]
+「今回せっかちだったのはお前の方だったな」[p]
+[_tb_end_text]
+
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達.png"  ]
+[tb_start_text mode=1 ]
+#ゆうこ
+（あはは、面目ない）[p]
+#
+ゆうこはいつも悪びれずに笑う。でも、それがゆうこだ。[p]
+
+[_tb_end_text]
+
+[wait  time="2000"  ]
+[tb_start_text mode=1 ]
+#
+相変わらず、ねこはゆうこがいると一言も話そうとしない。[p]
+それどころか少し機嫌が悪そうにしている。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+俺はねこのご飯を数種類。そして、自分用の夕食を買ったのち、レジに向かった。[p]
+自宅に帰る前に、ゆうこを家まで送っていくか。[p]
+行きの道とは少し外れるが、そこまで遠回りでもない。[p]
+ちょっとご飯が遅れるくらい我慢しようじゃないか。[p]
+[_tb_end_text]
+
+[jump  storage="cat_ura_4.ks"  target=""  ]

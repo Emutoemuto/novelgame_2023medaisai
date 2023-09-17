@@ -1,7 +1,5 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_cat_ura_4.ks]
 
-[mask time=10]
-[mask_off time=10]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]

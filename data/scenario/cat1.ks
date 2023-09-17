@@ -86,7 +86,8 @@
 [chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達.png"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
-（そうそう！　例のアレ……。隕石を探しに来たんだよ！）[p]
+（分かってるって。隕石でしょ？）[p]
+（せっかちだなぁ。楽しみは取っておくものなんだよ）[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -150,8 +151,9 @@
 
 [tb_start_text mode=1 ]
 #ゆうこ
-（それもそうだね。こんな所に置いておけないよね）[p]
-（でも、どうしよっか）[p]
+（もぅ、本当にせっかちなんだからなぁ）[p]
+（でも、あんたの言う通りだよね）[p]
+（どうすればいいのかなぁ）[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -174,7 +176,7 @@
 [chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_ニヤツキ.png"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
-あぁ。あれねぇ。まだ覚えてたんだ。ふぅん、そっか。[p]
+（あぁ。あれねぇ。まだ覚えてたんだ。ふぅん、そっか）[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -189,12 +191,13 @@
 
 [tb_start_text mode=1 ]
 #ゆうこ
-（いいよいいよ。皆まで言わなくても分かるって。私たちの思い出の場所だもんねぇ）[p]
+（いいよいいよ。せっかちさんめ。皆まで言わなくても分かるって）[p]
+（あそこは私たちの思い出の場所だもんねぇ）[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #
-ゆうこややけに上機嫌になり、かかとでリズムをとっている。[p]
+ゆうこはやけに上機嫌になり、かかとでリズムをとっている。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -205,7 +208,7 @@
 [chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達.png"  ]
 [tb_start_text mode=1 ]
 #
-そして、ゆうこは去り際に、「覚えてくれててうれしい」と囁いた。[p]
+そして、ゆうこは去り際に、「覚えてくれたんだね」と囁いた。[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
@@ -222,6 +225,20 @@
 #ゆうこ
 （それがいいかもね。あたしはあれだし、この山に置いたままは論外だしね）[p]
 
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+となれば、話は早いほうがいいだろう。[p]
+俺はねこを抱きかかえるため、前足の付け根に手を掛け、胸に抱きよせた。[p]
+その際、ねこは無抵抗に抱えられた。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ゆうこ
+（ほんと、あんたはせっかちだよね）[p]
+#
+ゆうこは俺の背にぽつりとそう呟いた。[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
