@@ -1,5 +1,7 @@
 [_tb_system_call storage=system/_cat_ura_2.ks]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [bg  time="1000"  method="crossfade"  storage="ダウンロード.png"  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_閉眼.png"  width="680"  height="680"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="家BGM1.1.mp3"  loop="true"  ]
