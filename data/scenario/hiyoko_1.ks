@@ -1,5 +1,6 @@
 [_tb_system_call storage=system/_hiyoko_1.ks]
 
+[tb_show_message_window  ]
 *hiyoko_start
 
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
@@ -14,5 +15,12 @@
 [tb_start_text mode=1 ]
 #唯他敬介（主人公）
 （ヒヨコにしては、ちょっと大きくないか……？）[p]
+#ヒヨコ
+ピョ！[p]
+#唯他敬介
+うお！変な鳴き声だな！[p]
+#ゆうこ
+待って！[p]
+この子、所々傷ついてる……[p]
 [_tb_end_text]
 
