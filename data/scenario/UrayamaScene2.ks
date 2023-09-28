@@ -62,8 +62,8 @@
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_hide_message_window  ]
 [glink  color="black"  storage="hiyoko_1.ks"  size="20"  text="ヒヨコかな？"  x="375"  y="94"  width=""  height=""  _clickable_img=""  target="*hiyoko_start"  ]
-[glink  color="black"  storage="cat1.ks"  size="20"  text="ネコ？"  target="*neko_start"  x="373"  y="269"  width="94"  height="20"  _clickable_img=""  ]
-[glink  color="black"  storage="UrayamaScene2.ks"  size="20"  text="ゾウだね"  x="370"  y="211"  width="119"  height="20"  _clickable_img=""  target="*demo"  ]
+[glink  color="black"  storage="cat1.ks"  size="20"  text="ネコ？"  target="*neko_start"  x="377"  y="252"  width="94"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="UrayamaScene2.ks"  size="20"  text="ゾウだね"  x="375"  y="404"  width="119"  height="20"  _clickable_img=""  target="*demo"  ]
 [s  ]
 *demo
 
