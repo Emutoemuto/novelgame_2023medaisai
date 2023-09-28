@@ -1,19 +1,22 @@
 [_tb_system_call storage=system/_cat1.ks]
 
-[chara_hide  name="女友達"  time="1000"  wait="true"  pos_mode="true"  ]
-[bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  ]
-[delay  speed="75"  ]
+*neko_start
+
 [tb_show_message_window  ]
-[font  size="39"  color="0xadf0c8"  ]
+[bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
+[chara_hide  name="ゆうこ"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
+#
 ねこルート[p]
 ～ベツレヘムの花を君に～[p]
 [_tb_end_text]
 
+[delay  speed="75"  ]
+[font  size="39"  color="0xadf0c8"  ]
 [wait  time="3000"  ]
 [delay  speed="30"  ]
 [resetfont  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_通常.png"  width="680"  height="680"  ]
 [tb_start_text mode=1 ]
 #

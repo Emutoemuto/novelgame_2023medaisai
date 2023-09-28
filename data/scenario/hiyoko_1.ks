@@ -1,11 +1,12 @@
 [_tb_system_call storage=system/_hiyoko_1.ks]
 
-[tb_show_message_window  ]
 *hiyoko_start
 
+[tb_show_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
 [chara_hide  name="ゆうこ"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
+#
 ひよこルート[p]
 ～不等価交換～[p]
 [_tb_end_text]
@@ -24,3 +25,4 @@
 この子、所々傷ついてる……[p]
 [_tb_end_text]
 
+[chara_mod  name="ヒヨコ"  time="600"  cross="true"  storage="chara/4/ノベルゲー　ひよこ.png"  ]
