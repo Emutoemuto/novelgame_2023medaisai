@@ -1,14 +1,40 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  method="crossfade"  storage="urayama.png"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  ]
-[tb_show_message_window] 
-[chara_mod  name="ヒヨコ"  time="10"  cross="true"  storage="chara/4/ノベルゲー　ひよこ.png"  ]
-[chara_show  name="ヒヨコ"  time="10"  wait="true"  storage="chara/4/ノベルゲー　ひよこ_威嚇.png"  width="520"  height="736"  left="226"  top="13"  reflect="false"  ]
-[chara_show  name="ゆうこ"  time="10"  wait="true"  storage="chara/3/ノベルゲー　女友達_困り顔_(1).png"  width="581"  height="823"  left="386"  top="32"  reflect="false"  ]
-[chara_move  name="ヒヨコ"  anim="false"  time="10"  effect="linear"  wait="false"  left="39"  top="111"  width="391"  height="555"  ]
 [mask_off time=10]
+*hiyoko_start
+
+[tb_show_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
+[chara_hide  name="ゆうこ"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_start_text mode=1 ]
+#
+ひよこルート[p]
+～不等価交換～[p]
+[_tb_end_text]
+
+[chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ_威嚇.png"  width="520"  height="736"  left="226"  top="13"  reflect="false"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  ]
+[tb_start_text mode=1 ]
+#唯他敬介（主人公）
+（ヒヨコにしては、ちょっと大きくないか……？）[p]
+#ヒヨコ
+「ピョ！」[p]
+#唯他敬介
+「うお！変な鳴き声だな！」[p]
+#ゆうこ
+「待って！」[p]
+「この子、所々傷ついてる……」[p]
+[_tb_end_text]
+
+[chara_mod  name="ヒヨコ"  time="600"  cross="true"  storage="chara/4/ノベルゲー　ひよこ.png"  ]
+[tb_start_text mode=1 ]
+#ヒヨコ
+「ピョー……」[p]
+[_tb_end_text]
+
+[chara_move  name="ヒヨコ"  anim="false"  time="300"  effect="linear"  wait="true"  left="39"  top="111"  width="391"  height="555"  ]
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_困り顔_(1).png"  width="581"  height="823"  left="386"  top="32"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
 「ねえ敬介、この子家で保護してあげようよ」[p]
@@ -38,3 +64,5 @@
 （もしかして、こいつヒヨコと触れ合いたいがためにそんなこと言ったのか？）[p]
 [_tb_end_text]
 
+[jump  storage="hiyoko_2.ks"  target=""  ]
+[s  ]

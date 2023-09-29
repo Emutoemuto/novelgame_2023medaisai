@@ -62,3 +62,5 @@
 （もしかして、こいつヒヨコと触れ合いたいがためにそんなこと言ったのか？）[p]
 [_tb_end_text]
 
+[jump  storage="hiyoko_2.ks"  target=""  ]
+[s  ]
