@@ -11,7 +11,7 @@
 ～不等価交換～[p]
 [_tb_end_text]
 
-[chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ.png"  width="508"  height="719"  left="205"  top="28"  reflect="false"  ]
+[chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ_威嚇.png"  width="3541"  height="5016"  left="205"  top="28"  reflect="false"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  ]
 [tb_start_text mode=1 ]
 #唯他敬介（主人公）
@@ -26,3 +26,8 @@
 [_tb_end_text]
 
 [chara_mod  name="ヒヨコ"  time="600"  cross="true"  storage="chara/4/ノベルゲー　ひよこ.png"  ]
+[tb_start_text mode=1 ]
+#ヒヨコ
+ピョー……[p]
+[_tb_end_text]
+
