@@ -2,6 +2,7 @@
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
+[playbgm  volume="10"  time="1000"  loop="true"  storage="autumn_insects3.mp3"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="道路夜.jpg"  ]
 [tb_show_message_window  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_通常.png"  width="680"  height="680"  left="154"  top="-12"  reflect="false"  ]

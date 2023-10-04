@@ -147,13 +147,13 @@
 
 [delay  speed="30"  ]
 [wait  time="3000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="ミステリーBGM1.4.mp3"  ]
+[playbgm  volume="20"  time="1000"  loop="true"  storage="ミステリーBGM1.4.mp3"  ]
 [tb_start_text mode=1 ]
 #
 「ちょっとまってよ、なんだよ、それ」[p]
 「はぁ？　ゆうこ のお葬式？」[p]
 「ふざけんなよ、笑えねぇよ」[p]
-ふざけんな、確かに俺は両親に言った。[p]
+ふざけんな、確かに俺は両親にそう言った。[p]
 しかし、どうにもその言葉に感情が乗らなかった。[p]
 両親の突然の帰宅、奇妙な態度、そして発言。[p]
 どれもふざけているにしては、じっとりとした生々しさがこびりついていた。[p]
@@ -187,5 +187,13 @@
 ゆうこ は、既に死んでいる。[p]
 じゃあ、昨日俺が会った ゆうこ は、[p]
 誰だ？[p]
+[_tb_end_text]
+
+[playse  volume="100"  time="1000"  buf="0"  storage="iron_door2_O.mp3"  ]
+[quake  time="200"  count="3"  hmax="10"  wait="true"  ]
+[tb_start_text mode=1 ]
+#
+何も考えられなかった。[p]
+ただ、その場にじっとしているのが嫌で、[p]
 [_tb_end_text]
 
