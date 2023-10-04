@@ -1,7 +1,5 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_hiyoko_2.ks]
 
-[mask time=10]
-[mask_off time=10]
 *start
 
 [bg  time="1000"  method="crossfade"  storage="家昼.PNG"  ]
