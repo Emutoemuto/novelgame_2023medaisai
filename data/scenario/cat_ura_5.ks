@@ -220,3 +220,13 @@
 「お前だって昨日見ただろ！ちゃんと動いている ゆうこ を！」[p]
 [_tb_end_text]
 
+[tb_start_text mode=1 ]
+#ねこ
+「言葉で説明したって、分かんないよね」[p]
+「行けばいいよ。ゆうこ が居そうな場所に」[p]
+「私は、止めない」[p]
+
+[_tb_end_text]
+
+[stopbgm  time="1000"  ]
+[jump  storage="cat_ura_6.ks"  target=""  ]
