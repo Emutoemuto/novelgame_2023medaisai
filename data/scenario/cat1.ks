@@ -3,6 +3,11 @@
 *neko_start
 
 [tb_show_message_window  ]
+<<<<<<< HEAD[p]
+
+
+[font  size="39"  color="0xadf0c8"  ]
+[tb_show_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
 [chara_hide  name="ゆうこ"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]

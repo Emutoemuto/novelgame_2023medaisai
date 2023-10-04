@@ -1,20 +1,27 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
+[bg  time="10"  method="crossfade"  storage="家昼.PNG"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="ミステリーBGM1.4.mp3"  ]
+[tb_show_message_window] 
+[chara_mod  name="ねこ"  time="10"  cross="true"  storage="chara/2/閉猫_怪訝.png"  ]
 [mask_off time=10]
-[tb_show_message_window  ]
-[bg  time="1000"  method="fadeInLeft"  storage="家昼.PNG"  ]
 [tb_start_text mode=1 ]
-#唯他敬介、ゆうこ
-「いただきます！」[p]
-
-[_tb_end_text]
-
-[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達.png"  width="571"  height="811"  left="411"  top="42"  reflect="false"  ]
-[chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ.png"  width="433"  height="614"  left="37"  top="9"  reflect="false"  ]
-[tb_start_text mode=1 ]
-#ゆうこ
-「うーん、美味しい！」[p]
-「敬介も料理の腕上げたねー」[p]
+#
+俺は思わず母を突き飛ばしてしまった。[p]
+衝撃を受け止めきれなかった母は、父の体にのしかかるようにもたれた。[p]
+#父
+「おい！」[p]
+#母
+「いいの、私は大丈夫、大丈夫だから」[p]
+「今はこの子を心配してあげて」[p]
+#
+母が俺に視線を向ける。[p]
+その瞬間、全身が粟立つ感覚を覚えた。[p]
+その時になって、ようやく確信した。[p]
+二人はふざけていない。本当のことを言っている。[p]
+ゆうこ は、既に死んでいる。[p]
+じゃあ、昨日俺が会った ゆうこ は、[p]
+誰だ？[p]
 [_tb_end_text]
 

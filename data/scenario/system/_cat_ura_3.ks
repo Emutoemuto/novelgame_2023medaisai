@@ -1,4 +1,4 @@
-[preload  storage="./data/bgimage/urayama.png"  ]
+[preload  storage="./data/bgimage/道路夜.jpg"  ]
 [preload  storage="./data/fgimage/chara/2/閉猫_閉眼.png"  ]
 [preload  storage="./data/fgimage/chara/2/閉猫_通常.png"  ]
 [preload  storage="./data/fgimage/chara/2/閉猫_驚き.png"  ]
