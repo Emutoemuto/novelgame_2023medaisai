@@ -1,24 +1,32 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  method="crossfade"  storage="urayama.png"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  ]
-[tb_show_message_window] 
-[chara_mod  name="ヒヨコ"  time="10"  cross="true"  storage="chara/4/ノベルゲー　ひよこ_喜び.png"  ]
-[chara_mod  name="ゆうこ"  time="10"  cross="true"  storage="chara/3/ノベルゲー　女友達.png"  ]
-[chara_show  name="ヒヨコ"  time="10"  wait="true"  storage="chara/4/ノベルゲー　ひよこ_威嚇.png"  width="3541"  height="5016"  left="205"  top="28"  reflect="false"  ]
-[chara_show  name="ゆうこ"  time="10"  wait="true"  storage="chara/3/ノベルゲー　女友達.png"  width="544"  height="772"  left="398"  top="33"  reflect="false"  ]
-[chara_move  name="ヒヨコ"  anim="false"  time="10"  effect="linear"  wait="false"  left="-45"  top="4"  width="508"  height="719"  ]
 [mask_off time=10]
+*start
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="1000"  method="fadeIn"  storage="家昼.PNG"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  fadein="true"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
-#ゆうこ
-「やった！よかったねー、ヒヨコ君？」[p]
-#ヒヨコ
-「ピョピョピョ！！！」[p]
+#唯他敬介、ゆうこ
+「「いただきます！」」[p]
 #唯他敬介
-（おいおい、まさかヒヨコとまだ戯れたいがために家で保護しようとか言い出したんじゃないだろうな？）[p]
+今日の主役はカボチャの煮物と、帰りにスーパーで買ったコロッケだ。[p]
 [_tb_end_text]
 
-[stopbgm  time="1000"  fadeout="true"  ]
-[jump  storage="hiyoko_2.ks"  target="*start"  ]
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_ニヤツキ.png"  width="527"  height="747"  left="254"  top="49"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#ゆうこ
+「いやー、昔に比べたら敬介も料理できるようになったよね～」[p]
+#唯他敬介
+「お前が最低限しか料理しないからだろ！」[p]
+確かに昔はここまで料理ができたわけではなかった。[p]
+俺は幼いころ火事にあい、そこをジイサンに助けてもらった。そして、ジイサンと2人で住み始めたのがこの家だ。[p]
+この家の近くに住んでいるのがゆうこだった。ゆうこの両親は仕事で不在の時期が多く、近所の俺、ジイサンと3人で飯を食べることがほとんどだった。[p]
+やがてジイサンは亡くなり、この家の住人は俺だけになったがゆうこは何だかんだと理由をつけてこの家でご飯を食べているということだ。[p]
+[_tb_end_text]
+
+[chara_move  name="ゆうこ"  anim="false"  time="300"  effect="linear"  wait="true"  left="482"  top="66"  width="527"  height="747"  ]
+[chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ_喜び.png"  width="433"  height="616"  left="80"  top="32"  reflect="false"  ]
 [s  ]

@@ -9,6 +9,8 @@
 [tb_start_text mode=1 ]
 #唯他敬介、ゆうこ
 「「いただきます！」」[p]
+#唯他敬介
+今日の主役はカボチャの煮物と、帰りにスーパーで買ったコロッケだ。[p]
 [_tb_end_text]
 
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_ニヤツキ.png"  width="527"  height="747"  left="254"  top="49"  reflect="false"  ]
@@ -23,4 +25,6 @@
 やがてジイサンは亡くなり、この家の住人は俺だけになったがゆうこは何だかんだと理由をつけてこの家でご飯を食べているということだ。[p]
 [_tb_end_text]
 
+[chara_move  name="ゆうこ"  anim="false"  time="300"  effect="linear"  wait="true"  left="482"  top="66"  width="527"  height="747"  ]
+[chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ_喜び.png"  width="433"  height="616"  left="80"  top="32"  reflect="false"  ]
 [s  ]

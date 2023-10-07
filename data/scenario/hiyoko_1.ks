@@ -2,16 +2,16 @@
 
 *hiyoko_start
 
-[tb_show_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
 [chara_hide  name="ゆうこ"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
 ひよこルート[p]
 ～不等価交換～[p]
 [_tb_end_text]
 
-[chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ_威嚇.png"  width="3541"  height="5016"  left="205"  top="28"  reflect="false"  ]
+[chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ_威嚇.png"  width="413"  height="586"  left="279"  top="38"  reflect="false"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  ]
 [tb_start_text mode=1 ]
 #唯他敬介（主人公）
