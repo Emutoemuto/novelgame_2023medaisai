@@ -11,7 +11,7 @@
 ～不等価交換～[p]
 [_tb_end_text]
 
-[chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ.png"  width="508"  height="719"  left="205"  top="28"  reflect="false"  ]
+[chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ_威嚇.png"  width="3541"  height="5016"  left="205"  top="28"  reflect="false"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  ]
 [tb_start_text mode=1 ]
 #唯他敬介（主人公）
@@ -45,7 +45,26 @@
 [chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_怒り顔.png"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
+「ばっか、学校で保護しきれるわけないじゃない！」[p]
+「そんなことしたら、この子はどうなるのよ！」[p]
+#唯他敬介
+（それは確かにそうだな……）[p]
+（見つけた責任ってやつなのかな）[p]
+「分かったよ、とりあえず家で保護しよう」[p]
 
 [_tb_end_text]
 
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達.png"  ]
+[chara_mod  name="ヒヨコ"  time="600"  cross="true"  storage="chara/4/ノベルゲー　ひよこ_喜び.png"  ]
+[tb_start_text mode=1 ]
+#ゆうこ
+「やった！よかったねー、ヒヨコ君？」[p]
+#ヒヨコ
+「ピョピョピョ！！！」[p]
+#唯他敬介
+（おいおい、まさかヒヨコとまだ戯れたいがために家で保護しようとか言い出したんじゃないだろうな？）[p]
+[_tb_end_text]
+
+[stopbgm  time="1000"  fadeout="true"  ]
+[jump  storage="hiyoko_2.ks"  target="*start"  ]
 [s  ]
