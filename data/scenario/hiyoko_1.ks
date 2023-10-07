@@ -26,3 +26,26 @@
 [_tb_end_text]
 
 [chara_mod  name="ヒヨコ"  time="600"  cross="true"  storage="chara/4/ノベルゲー　ひよこ.png"  ]
+[tb_start_text mode=1 ]
+#ヒヨコ
+「ピョ～……」[p]
+[_tb_end_text]
+
+[chara_move  name="ヒヨコ"  anim="false"  time="300"  effect="linear"  wait="true"  left="-45"  top="4"  width="508"  height="719"  ]
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達.png"  width="544"  height="772"  left="398"  top="33"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#ゆうこ
+「ねえ！この子、敬介の家で保護しない？」[p]
+#唯他敬介
+「え？」[p]
+「うーん、それはいいけど家でペットなんて飼ったことないぞ？」[p]
+「それよりかは、すぐ近くの学校で保護してもらった方がいいんじゃ……」[p]
+[_tb_end_text]
+
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_怒り顔.png"  ]
+[tb_start_text mode=1 ]
+#ゆうこ
+
+[_tb_end_text]
+
+[s  ]
