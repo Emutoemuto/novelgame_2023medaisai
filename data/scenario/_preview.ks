@@ -1,43 +1,50 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  method="crossfade"  storage="道路昼.jpg"  ]
 [tb_show_message_window] 
 [mask_off time=10]
+[bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
+[chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_通常.png"  width="680"  height="680"  left="146"  top="0"  reflect="false"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#
+ねこは俺の半歩前を歩く。[p]
+その姿は人ではないのに、どこか俺のよく知っている一人の幼馴染を過らせる。[p]
+互いに何も言わない。[p]
+でも……。[p]
+[_tb_end_text]
+
 [wait  time="1500"  ]
-[chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_怪訝.png"  width="680"  height="680"  left="165"  top="-10"  reflect="false"  ]
 [tb_start_text mode=1 ]
-#ねこ
-「これで分かった？」[p]
 #
-声に振り向くと、そこにはねこが居た。[p]
-ずっとついてきていたらしい。[p]
-「どういうつもりだ」[p]
+気が付くと、裏山に足が向いていた。[p]
+昨日来たばかりの、しかし、もう何もかも違うこの場所に。[p]
+「ゆうこ、なんだよな」[p]
 #ねこ
-「どうもこうもないわよ」[p]
-「これがすべて」[p]
-「ほんと、寂しいけど、ね」[p]
+「そうだねぇ」[p]
+軽く、浮かび上がるような声。[p]
+空気に希釈されてしまうみたい。[p]
+#
+「お前が ゆうこ なら、昨日一緒にいた〝ゆうこ〟って」[p]
+#ねこ
+「さぁね」[p]
+「あたしにも詳しくは分かんない」[p]
+「でも、何が起こったのかは、なんとなく分かると思う」[p]
+#
+なだらかな山嶺を歩く。[p]
+その先にあるものは、俺と ゆうこ との秘密の場所。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ねこ
-「どうかしてるのは、○○の方なんだよ！」[p]
-「まだ思い出さないの？　ゆうこ は死んだの」[p]
-「それで、ゆうこ が死んだ後、あんたはおかしくなっちゃったの」[p]
+「予想が正しいんなら、きっとそこにあるはず」[p]
+「こんなことになった原因が」[p]
+#
+ふと思い出す。[p]
+昨日のテレビ番組。[p]
+ベツレヘムの占い。[p]
+あのとき、ねこは、ゆうこ はこう言った。[p]
+あんたも、このおまじないやっちゃったんでしょ、と。[p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
-#
-ねこは尻尾を地面に垂らしながら、うなだれるように言った。[p]
-そして、体の方向を変えた。[p]
-その方向は学校の裏山の方だった。[p]
-#ねこ
-「こっちに来て」[p]
-「多分、これで全部思い出すはずだから」[p]
-#
-沈んだ声が地面を這うように耳に届く。[p]
-そして、去り際、ねこはぽつねんと言った。[p]
-「私にこんな思いさせないでよ」と。[p]
-[_tb_end_text]
-
-[jump  storage="cat_ura_7.ks"  target=""  ]
