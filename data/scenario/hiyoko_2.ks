@@ -27,4 +27,15 @@
 
 [chara_move  name="ゆうこ"  anim="false"  time="300"  effect="linear"  wait="true"  left="482"  top="66"  width="527"  height="747"  ]
 [chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ_喜び.png"  width="433"  height="616"  left="80"  top="32"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#ヒヨコ
+「ピョピョ～～！！」[p]
+#唯他敬介
+「おっ、美味そうに食べてるな」[p]
+#ゆうこ
+「ねえ、この子明日学校に連れて行こうよ！」[p]
+#唯他敬介
+「どんだけ一緒にいたいんだよ！」[p]
+[_tb_end_text]
+
 [s  ]
