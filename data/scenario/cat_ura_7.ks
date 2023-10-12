@@ -115,3 +115,4 @@
 秘密基地。[p]
 [_tb_end_text]
 
+[jump  storage="cat_ura_8.ks"  target=""  ]
