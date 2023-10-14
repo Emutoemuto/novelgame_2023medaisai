@@ -46,19 +46,51 @@
 そのとき、聞きなれた声が後ろの、プレハブ小屋の前に拓かれた小庭から聞こえてきた。[p]
 [_tb_end_text]
 
-[chara_hide  name="ゆうこ‘"  time="1000"  wait="true"  pos_mode="true"  ]
-[chara_show  name="ゆうこ‘"  time="1000"  wait="true"  storage="chara/5/閉猫_怪訝.png"  width="680"  height="680"  left="-90"  top="-3"  reflect="false"  ]
-[chara_show  name="ゆうこ？"  time="1000"  wait="true"  storage="chara/6/ノベルゲー　女友達_(1).png"  width="760"  height="1030"  left="344"  top="3"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ゆうこ？
 （あれ？ こんな所で何してるの？）[p]
 #
 あかるく、素っ頓狂な声。[p]
 その声色は俺の記憶の中の ゆうこ と変わらない。[p]
-でも、どうやらそれがおかしいみたい。[p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
 そのとき、俺はひどく冷静だった。[p]
 咄嗟に振り替えることもなければ、びくりと痙攣することもない。[p]
-まるで、俺の後ろにひとの[p]
+まるで、俺の後ろに 人の形をしたゆうこ がいることが至極当然のように感じていた。[p]
+ゆっくりと振り向き、そして正対する。[p]
+[_tb_end_text]
 
+[chara_hide  name="ゆうこ‘"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_show  name="ゆうこ‘"  time="1000"  wait="true"  storage="chara/5/閉猫_怪訝.png"  width="680"  height="680"  left="-90"  top="-3"  reflect="false"  ]
+[chara_show  name="ゆうこ？"  time="1000"  wait="true"  storage="chara/6/ノベルゲー　女友達_ニヤツキ_(1).png"  width="760"  height="1030"  left="342"  top="4"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#
+人の形をしたゆうこ は、指をスカートの裾に巻き付けていた。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ゆうこ？
+（へぇ。もっと驚くかと思ってた）[p]
+#
+いつものような、にへらとした笑顔。[p]
+声色も、何もかも変わらない。[p]
+#ゆうこ？
+（私としては残念と安心で五分五分だなぁ）[p]
+#
+「お前は誰なんだ？」[p]
+山登りの最中、ずっと考えていた。目の前に現れる ゆうこ がいったい何者なのかを。[p]
+幽霊？　バケモノ？　[p]
+浮かんでは弾けていく想像。[p]
+その答えは、もっと単純なものなのかも。今の自分を顧みて、ふいと思う。[p]
+
+[_tb_end_text]
+
+[chara_mod  name="ゆうこ？"  time="600"  cross="true"  storage="chara/6/ノベルゲー　女友達_真顔_(1).png"  ]
+[tb_start_text mode=1 ]
+#ゆうこ？
+（私はね、あんたの心の弱さだよ）[p]
 [_tb_end_text]
 
