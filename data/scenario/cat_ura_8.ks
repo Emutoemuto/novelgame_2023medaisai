@@ -1,15 +1,10 @@
 [_tb_system_call storage=system/_cat_ura_8.ks]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
+[bg  time="1000"  method="crossfade"  storage="山昼.jpg"  ]
 [tb_show_message_window  ]
 [chara_show  name="ゆうこ‘"  time="1000"  wait="true"  storage="chara/5/無題14_20231009135335.png"  width="680"  height="680"  left="180"  top="-23"  reflect="false"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[tb_start_text mode=1 ]
-#
-仮背景[p]
-[_tb_end_text]
-
 [tb_start_text mode=1 ]
 #
 プレハブ小屋を繋ぎ合わせたような小さな家屋に、[p]
@@ -55,5 +50,7 @@
 [chara_show  name="ゆうこ？"  time="1000"  wait="true"  storage="chara/6/ノベルゲー　女友達_(1).png"  width="760"  height="1030"  left="344"  top="3"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ゆうこ？
+（あれ？ こんな所で何してるの？）[p]
+
 [_tb_end_text]
 
