@@ -1,4 +1,7 @@
 [preload  storage="./data/bgimage/山昼.jpg"  ]
 [preload  storage="./data/fgimage/chara/6/ノベルゲー　女友達_真顔_(1).png"  ]
 [preload  storage="./data/fgimage/chara/5/無題14_20231009135335.png"  ]
+[preload  storage="./data/fgimage/chara/5/開猫_閉眼.png"  ]
+[preload  storage="./data/fgimage/chara/5/開猫_怪訝.png"  ]
+[preload  storage="./data/fgimage/chara/5/開猫_通常.png"  ]
 [return]
