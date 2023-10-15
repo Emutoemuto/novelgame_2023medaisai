@@ -413,4 +413,6 @@
 注：まだ解明されていない謎が残されています。現在は裏ルートを攻略しました。物語の真相を知るには表ルートを探索することを強く推奨します。[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [glink  color="black"  storage="cat1.ks"  size="20"  text="表ルートに行きますか？"  target="*common１"  x="295"  y="293"  width=""  height=""  _clickable_img=""  ]
+[s  ]
