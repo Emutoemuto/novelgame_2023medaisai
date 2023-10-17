@@ -21,7 +21,30 @@
 
 [chara_mod  name="ねこ"  time="600"  cross="true"  storage="chara/2/閉猫_怪訝.png"  ]
 [tb_start_text mode=1 ]
+#ゆうこ
+（そりゃ残っているよ。私たち以外こんな場所に来ることなんてないって）[p]
 #
+森合から微かに漂ってくる風が ゆうこ のまつ毛を小刻みに震わせた。[p]
+何もかも変わらない。昔のまま――。[p]
+いや、秘密基地の拠点として使っていた小屋の戸が僅かに開いていた。[p]
+戸の隙間にゴミは堆積しておらず、つい最近誰かによって開けられた形跡がうかがえる。[p]
+[_tb_end_text]
+
+[glink  color="black"  storage="cat_omote_1.ks"  size="20"  x="-9"  y="275"  width=""  height=""  text="最近ここに来た？"  _clickable_img=""  ]
+[glink  color="black"  storage="cat_omote_1.ks"  size="20"  x="-10"  y="334"  width=""  height=""  text="誰かにここのこと教えた？"  _clickable_img=""  ]
+[s  ]
+*undefined
+
+[tb_start_text mode=1 ]
+#
+ここのことを知っているのは俺と ゆうこ だけ。[p]
+なら、ゆうこ がここに来たのだろうか。[p]
+#ゆうこ
+（ここに？　まさかぁ。一人でここに来るほど子どもじゃないよ）[p]
+#
+「でも、なんか扉が開いてるんだよね」[p]
+#ゆうこ
+（えっ？　ほんとだ。開いてるね）[p]
 
 [_tb_end_text]
 
