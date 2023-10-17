@@ -9,7 +9,7 @@
 [mask_off time=10]
 [tb_hide_message_window  ]
 [glink  color="black"  storage="hiyoko_1.ks"  size="20"  text="ヒヨコかな？"  x="368"  y="146"  width=""  height=""  _clickable_img=""  target="*hiyoko_start"  ]
-[glink  color="black"  storage="UrayamaScene2.ks"  size="20"  text="ゾウだね"  x="365"  y="268"  width="119"  height="20"  _clickable_img=""  target="*demo"  ]
+[glink  color="black"  storage="zou1.ks"  size="20"  text="ゾウだね"  x="365"  y="268"  width="119"  height="20"  _clickable_img=""  target="*zou"  ]
 [glink  color="black"  storage="UrayamaScene2.ks"  size="20"  text="猫かな"  x="357"  y="413"  width="129"  height="20"  _clickable_img=""  target="*猫ルート"  ]
 [s  ]
 *猫ルート
