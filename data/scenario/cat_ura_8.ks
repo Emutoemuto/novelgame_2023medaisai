@@ -415,5 +415,5 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[glink  color="black"  storage="cat1.ks"  size="20"  text="表ルートに行きますか？"  target="*common１"  x="295"  y="293"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="cat1.ks"  size="20"  text="表ルートに行きますか？"  target="*neko_start"  x="295"  y="293"  width=""  height=""  _clickable_img=""  ]
 [s  ]

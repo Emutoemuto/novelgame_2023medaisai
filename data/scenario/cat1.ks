@@ -3,9 +3,6 @@
 *neko_start
 
 [tb_show_message_window  ]
-<<<<<<< HEAD[p]
-
-
 [font  size="39"  color="0xadf0c8"  ]
 [tb_show_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
@@ -259,3 +256,4 @@
 [chara_hide_all  time="1000"  wait="true"  ]
 [stopbgm  time="1000"  ]
 [jump  storage="cat_ura_1.ks"  target=""  ]
+[s  ]
