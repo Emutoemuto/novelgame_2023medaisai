@@ -2,39 +2,46 @@
 
 [mask time=10]
 [bg  time="10"  method="crossfade"  storage="山昼.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  ]
 [tb_show_message_window] 
-[chara_mod  name="ゆうこ？"  time="10"  cross="true"  storage="chara/6/ノベルゲー　女友達_真顔_(1).png"  ]
-[chara_mod  name="ゆうこ‘"  time="10"  cross="true"  storage="chara/5/開猫_通常.png"  ]
+[chara_mod  name="ねこ"  time="10"  cross="true"  storage="chara/2/閉猫_怪訝.png"  ]
+[chara_show  name="ゆうこ"  time="10"  wait="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  width="760"  height="1030"  left="329"  top="11"  reflect="false"  ]
 [mask_off time=10]
 [tb_start_text mode=1 ]
+「なんだよこれ」[p]
+#ゆうこ
+（クリスマスツリー、だねぇ）[p]
 #
-「そっか。もう悲しんでいいのか」[p]
-気が付くと、ゆうこの虚像 はどこにも居なくなっていた。[p]
-思い出の地に、俺は一人立っていた。[p]
-森間から一迅の風が吹きつけてくる。[p]
-冷たい。とても。[p]
-涙の跡に沿って冷たさが尾を引いている。[p]
-ツリーの前まで歩き、天辺に咲いた白い花に手を添えた。[p]
-儚げなのに、しっかりとした花弁。[p]
-俺はそっと白い花を天辺から取り、大事に両手で握った。[p]
+「そりゃ見りゃ分かるよ。なんでここにこんなものが」[p]
+#ゆうこ
+（さぁ。私も分かんない）[p]
+#
+白い花。そういえば、小屋の中に駆けていったねこの頭にも似たような物が乗せてあった。[p]
+どうにもきな臭い。[p]
 
 [_tb_end_text]
 
-[wait  time="3000"  ]
-[font  size="39"  color="0xadf0cb"  ]
+[wait  time="1500"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="rolling_can.mp3"  ]
 [tb_start_text mode=1 ]
-ねこルート裏　～ベツレヘムの花を君に～　END[p]
+身をよじった拍子に、何かが踵にあたって崩れた音が聞こえた。[p]
+ふいと音の方を見ると、そこにはいくつもの動物用の缶詰の空き缶が堆積していた。[p]
+音の正体はその山が崩れた音だった。[p]
+#
+「なぁ、ゆうこ。ここに俺ら以外も来てるのかもな」[p]
+空き缶を拾い上げる。ウェットタイプのねこ缶だ。[p]
+#ゆうこ
+（私たちだけの場所だったのにね）[p]
+#
+ゆうこ の吐息が部屋の空気をゆっくりと動かした。[p]
+「まぁ、こればっかりは仕方ないかな」[p]
+「俺たちもここ最近ずっと来てなかったわけだし――」[p]
+言葉を言い終わる刹那、モミの木の陰から小さな影がぬるりと躍り出るのが見えた。[p]
+そして、それと同時に一人の女の声が小屋の空気を震わせた。[p]
+#？？？
+「ここに来たのは他の誰でもない。あんたと、わ、ゆうこ の二人だよ」[p]
+「そこの木をここに運んだのも、ぜんぶぜんぶ」[p]
+
+
 [_tb_end_text]
 
-[resetfont  ]
-[tb_start_text mode=1 ]
-
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-注：まだ解明されていない謎が残されています。現在は裏ルートを攻略しました。物語の真相を知るには表ルートを探索することを強く推奨します。[p]
-[_tb_end_text]
-
-[tb_hide_message_window  ]
-[glink  color="black"  storage="cat1.ks"  size="20"  text="表ルートに行きますか？"  target="*neko_start"  x="295"  y="293"  width=""  height=""  _clickable_img=""  ]
-[s  ]
