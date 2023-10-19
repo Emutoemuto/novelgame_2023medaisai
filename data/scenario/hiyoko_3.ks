@@ -1,7 +1,5 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_hiyoko_3.ks]
 
-[mask time=10]
-[mask_off time=10]
 *start
 
 [tb_show_message_window  ]
@@ -16,5 +14,6 @@
 しかし、発見者のジイサンが魔術師であったがために多大な魔力による処置で助かった。[p]
 魔術と科学の一番の違いは、幾代もの積み重ねによりその場で不可能を可能にできることだ。[p]
 俺に注ぎ込まれた魔力のほとんどは傷の治癒に使われたが、その一部は今も体に残っており俺は魔力をコントロールする術を身につける必要があった。[p]
+「」[p]
 [_tb_end_text]
 

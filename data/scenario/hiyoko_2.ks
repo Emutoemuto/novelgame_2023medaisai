@@ -36,6 +36,11 @@
 「ねえ、この子明日学校に連れて行こうよ！」[p]
 #唯他敬介
 「どんだけ一緒にいたいんだよ！」[p]
+そんな、ツッコミを入れながら箸を進める。[p]
+これが今の俺の生活だ。大変な時もあったが、ここ数年で何とか生活基盤を作り上げていった。[p]
 [_tb_end_text]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[jump  storage="hiyoko_3.ks"  target="*start"  ]
 [s  ]
