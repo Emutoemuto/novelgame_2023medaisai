@@ -10,7 +10,7 @@
 ;ゆうこ？
 [chara_new  name="ゆうこ？"  jname="ゆうこ？"  storage="chara/6/ノベルゲー　女友達_(1).png"  ]
 ;ジイサン
-[chara_new  name="ジイサン"  jname="ジイサン"  storage="chara/7/ノベルゲー　じいさん.png"  ]
+[chara_new  name="ジイサン"  jname="ジイサン"  storage="chara/7/5FDjsLwNjSjxmeg1697722673_1697722826.png"  ]
 ;ヒヨコのマスター
 [chara_new  name="ヒヨコのマスター"  jname="ヒヨコのマスター"  storage="chara/8/ノベルゲー　マスター.png"  ]
 ;黒ヒヨコ
