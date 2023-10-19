@@ -226,3 +226,4 @@
 [wait  time="3000"  ]
 [stopbgm  time="1000"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
+[jump  storage="cat_omote_2.ks"  target=""  ]
