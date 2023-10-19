@@ -1,6 +1,30 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
+<<<<<<< HEAD
+[tb_show_message_window] 
+[mask_off time=10]
+[tb_show_message_window  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[bg  time="1000"  method="crossfade"  storage="1701.png"  ]
+[tb_start_text mode=1 ]
+#
+暗い。[p]
+視界は黒で覆いつくされていて、何も見通せない。[p]
+しかし、視覚が利かないぶん聴覚がより鋭敏になっていたらしく、周囲の音はよく聞こえていた。[p]
+#？？？
+「私は思い出させた方がいいと思うの」[p]
+「あいつは知らなきゃいけない」[p]
+#？？
+（一度捨てたんだよ？　捨てたのならそれなりの理由があるんだよ）[p]
+#？？？
+「理由ってなに」[p]
+#？？
+（想像つかない？　このおまじないをやるほどの動機だよ）[p]
+（そこまで言えば分かるでしょ？）[p]
+#
+そして、静寂が耳を覆った。[p]
+=======
 [bg  time="10"  method="crossfade"  storage="家夜.PNG"  ]
 [tb_show_message_window] 
 [mask_off time=10]
@@ -23,5 +47,17 @@
 [tb_start_text mode=1 ]
 #唯他敬介
 今から行うのは、2つの突っ張り棒を合わせて1つにすることだ。ちなみに成功率はかなり低い。[p]
+>>>>>>> a822c06773d5b204ad5b26e85f68328c49e37dc4
 [_tb_end_text]
 
+[wait  time="3000"  ]
+[tb_start_text mode=1 ]
+#
+やがて、沈黙に耐えられなくなった俺は、指先から徐々に力を加えていき、関節の強張りを解いていった。[p]
+目蓋が開いていく。すると僅かに見せた光が膨張し景色を形成していく。[p]
+上半身を起こし、頭を振る。[p]
+「いてて」[p]
+僅かに頭痛の残滓が残っていたが、あまり気にするほどでもなかった。[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="山昼.jpg"  ]
