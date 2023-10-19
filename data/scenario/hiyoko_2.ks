@@ -41,6 +41,7 @@
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[stopbgm  time="1000"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="hiyoko_3.ks"  target="*start"  ]
 [s  ]
