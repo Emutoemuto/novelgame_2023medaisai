@@ -1,2 +1,5 @@
-[preload  storage="./data/fgimage/undefined"  ]
+[preload  storage="./data/bgimage/山昼.jpg"  ]
+[preload  storage="./data/fgimage/chara/3/ノベルゲー　女友達_怒り顔.png"  ]
+[preload  storage="./data/fgimage/chara/7/ノベルゲー　マスター_笑顔.png"  ]
+[preload  storage="./data/fgimage/chara/7/ノベルゲー　マスター.png"  ]
 [return]
