@@ -28,5 +28,6 @@
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[jump  storage="hiyoko_3.ks"  target=""  ]
+[tb_image_hide  time="1000"  ]
+[jump  storage="hiyoko_4.ks"  target="*start"  ]
 [s  ]

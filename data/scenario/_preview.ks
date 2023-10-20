@@ -1,34 +1,20 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
+[bg  time="10"  method="fadeIn"  storage="道路昼.jpg"  ]
+[tb_show_message_window] 
+[chara_mod  name="ゆうこ"  time="10"  cross="true"  storage="chara/3/ノベルゲー　女友達_怒り顔.png"  ]
 [mask_off time=10]
-*zoubook
-
-[tb_show_message_window  ]
-[chara_show  name="ねこ"  time="1000"  wait="true"  ]
+[chara_show  name="ジイサン"  time="1000"  wait="true"  storage="chara/7/5FDjsLwNjSjxmeg1697722673_1697722826.png"  width="665"  height="942"  left="148"  top="61"  reflect="false"  ]
 [tb_start_text mode=1 ]
-「今日は象について調べてみよう」 [p]
+#唯他敬介
+髪はボサボサ、好きな食べ物はハンバーガーとかなりのジャンキーさ。[p]
+それでもジイサンは恩人だし、困っている人を助けずにはいられない、まさに正義の味方だった。[p]
+もう亡くなってはいるが、俺にとってもゆうこにとってもそれは変わらない。ジイサンなら、相手がヒヨコでも迷わず手を伸ばしただろう。[p]
+「まあ、なるようになるか。」[p]
 [_tb_end_text]
 
-[chara_hide  name="ねこ"  time="1000"  wait="true"  pos_mode="true"  ]
-[tb_start_text mode=1 ]
-僕たちは一日を象という動物について調べることに費やした。[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-象の脳は５キロを超える大きさがあり、人間やイルカと同様に複雑なつくりをしていることから、古くから象は感情を持っていると考えられている。[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-古代ギリシアの哲学者アリストテレスも「この獣は他のものたちの知性と理解力を超えている」という言葉を残している。 [p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-もしかしたら象は、何かを伝えようとして、僕の元に現れたのではないか。 明日も、象の元に行ってみよう。[p]
-[_tb_end_text]
-
-[tb_hide_message_window  ]
-[glink  color="black"  storage="zou_day2.ks"  size="20"  text="2日目へ"  target="*day2"  ]
-[jump  storage="zou_day2.ks"  target="*day2"  ]
-[tb_image_hide  time="1000"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[jump  storage="hiyoko_5.ks"  target="*start"  ]
 [s  ]

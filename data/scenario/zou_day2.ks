@@ -4,10 +4,12 @@
 
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
+#主人公
 翌日。 象と出会って1日が経った。 相変わらず、さゆりは裏山に象がいることを不思議がっている。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
+#主人公
 裏山には大体象がいる。そういうものではないだろうか。 今日も学校が終わり、さゆりとともに象の元に向かった。 [p]
 [_tb_end_text]
 

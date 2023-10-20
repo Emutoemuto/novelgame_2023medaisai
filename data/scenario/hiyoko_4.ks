@@ -1,5 +1,7 @@
 [_tb_system_call storage=system/_hiyoko_4.ks]
 
+*start
+
 [bg  time="1000"  method="crossfade"  storage="家昼.PNG"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
@@ -27,7 +29,7 @@
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="fadeIn"  storage="道路昼.jpg"  ]
 [chara_show  name="ヒヨコ"  time="0"  wait="true"  storage="chara/4/ノベルゲー　ひよこ.png"  width="355"  height="504"  left="504"  top="28"  reflect="false"  ]
-[chara_show  name="ゆうこ"  time="0"  wait="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  width="412"  height="584"  left="119"  top="45"  reflect="false"  ]
+[chara_show  name="ゆうこ"  time="0"  wait="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  width="466"  height="661"  left="86"  top="55"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 「なあ、コイツの飼い主本当に見つかると思うか？」[p]
@@ -48,4 +50,15 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [chara_show  name="ジイサン"  time="1000"  wait="true"  storage="chara/7/5FDjsLwNjSjxmeg1697722673_1697722826.png"  width="665"  height="942"  left="148"  top="61"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#唯他敬介
+髪はボサボサ、好きな食べ物はハンバーガーとかなりのジャンキーさ。[p]
+それでもジイサンは恩人だし、困っている人を助けずにはいられない、まさに正義の味方だった。[p]
+もう亡くなってはいるが、俺にとってもゆうこにとってもそれは変わらない。ジイサンなら、相手がヒヨコでも迷わず手を伸ばしただろう。[p]
+「まあ、なるようになるか。」[p]
+[_tb_end_text]
+
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[jump  storage="hiyoko_5.ks"  target="*start"  ]
 [s  ]
