@@ -1,7 +1,5 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_zou_zoubook.ks]
 
-[mask time=10]
-[mask_off time=10]
 *zoubook
 
 [tb_show_message_window  ]
@@ -28,7 +26,5 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[glink  color="black"  storage="zou_day2.ks"  size="20"  text="2日目へ"  target="*day2"  ]
 [jump  storage="zou_day2.ks"  target="*day2"  ]
-[tb_image_hide  time="1000"  ]
 [s  ]

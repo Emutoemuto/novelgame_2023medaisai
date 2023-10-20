@@ -15,6 +15,8 @@
 [chara_new  name="ヒヨコのマスター"  jname="ヒヨコのマスター"  storage="chara/8/ノベルゲー　マスター.png"  ]
 ;黒ヒヨコ
 [chara_new  name="黒ヒヨコ"  jname="黒ヒヨコ"  storage="chara/9/黒ヒヨコ_1(暗い).png"  ]
+;象
+[chara_new  name="象"  jname="象"  storage="chara/10/zou.png"  ]
 
 ;=========変数宣言部分 
 [iscript] 
