@@ -2,7 +2,7 @@
 
 *zoubook
 
-[bg  time="1000"  method="crossfade"  storage="教室.png"  ]
+[bg  time="1000"  method="crossfade"  storage="図書館.png"  ]
 [tb_show_message_window  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  width="453"  height="641"  left="359"  top="116"  reflect="false"  ]
 [tb_start_text mode=1 ]
