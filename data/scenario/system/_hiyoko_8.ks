@@ -1,2 +1,5 @@
 [preload  storage="./data/bgimage/kyousitu.png"  ]
+[preload  storage="./data/bgimage/1701.png"  ]
+[preload  storage="./data/bgimage/火事.png"  ]
+[preload  storage="./data/bgimage/fire.png"  ]
 [return]
