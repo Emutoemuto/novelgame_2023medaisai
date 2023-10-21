@@ -1,10 +1,22 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_hiyoko_7.ks]
 
-[mask time=10]
-[bg  time="10"  method="crossfade"  storage="教室.png"  ]
-[tb_show_message_window] 
-[chara_show  name="ゆうこ"  time="10"  wait="true"  storage="chara/3/ノベルゲー　女友達.png"  width="457"  height="648"  left="447"  top="116"  reflect="false"  ]
-[mask_off time=10]
+*start
+
+[tb_show_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="教室.png"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[tb_start_text mode=1 ]
+#唯他敬介
+俺たちの担任だった佐藤先生がたまたま学校にいたので、中で聞き込みができることになった。ここは６年生の時に使っていた教室だ。[p]
+ゆうこは早速聞き込みを始めている。[p]
+[_tb_end_text]
+
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達.png"  width="457"  height="648"  left="447"  top="116"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#ゆうこ
+「ねえねえ、このヒヨコ見たことある？」[p]
+[_tb_end_text]
+
 [chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ.png"  width="503"  height="714"  left="22"  top="13"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ヒヨコ
