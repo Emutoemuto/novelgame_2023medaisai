@@ -4,9 +4,7 @@
 [tb_show_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="1701.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[playse  volume="200"  time="1000"  buf="0"  storage="magazine1.mp3"  loop="true"  ]
-[wait  time="3000"  ]
-[stopse  time="1000"  buf="0"  ]
+[playse  volume="200"  time="1000"  buf="0"  storage="magazine1.mp3"  loop="false"  ]
 [tb_start_text mode=1 ]
 #
 ページを繰る。[p]
@@ -17,7 +15,7 @@
 [_tb_end_text]
 
 [wait  time="2000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="木簡三重奏（猫ルート）.mp3"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="木簡三重奏（猫ルート）.mp3"  ]
 [tb_start_text mode=1 ]
 #日記　2023年6月24日
 今日もコウちゃんと一緒に秘密基地まで来た。[p]

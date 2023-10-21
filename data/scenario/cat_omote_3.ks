@@ -1,12 +1,15 @@
 [_tb_system_call storage=system/_cat_omote_3.ks]
 
+*スタート
+
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[chara_hide_all  time="1000"  wait="true"  ]
-[bg  time="1000"  method="crossfade"  storage="山昼.jpg"  ]
-[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_困り顔_(1).png"  width="760"  height="1030"  left="338"  top="－16"  reflect="false"  ]
-[chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/無題14_20231009135335.png"  width="680"  height="680"  left="-70"  top="-24"  reflect="false"  ]
+[bg  time="1000"  method="crossfade"  storage="1701.png"  ]
 [tb_show_message_window  ]
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="magazine1.mp3"  ]
+[wait  time="2000"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="木簡三重奏（猫ルート）.mp3"  ]
 [tb_start_text mode=1 ]
 #
 ページを繰る。[p]
@@ -32,11 +35,18 @@
 これって占いなのかな？　[r]ちょっと違う気がするけど。[p]
 でも、なんでも叶うって魅力的かも。[r]もうそろそろ準備も整いそう。[p]
 #
+[_tb_end_text]
+
+[stopbgm  time="1000"  ]
+[bg  time="1000"  method="crossfade"  storage="山昼.jpg"  ]
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_困り顔_(1).png"  width="760"  height="1030"  left="338"  top="－16"  reflect="false"  ]
+[chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/無題14_20231009135335.png"  width="680"  height="680"  left="-70"  top="-24"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#
 俺は ゆうこ の方を向いた。ゆうこはきょとんとした顔をしている。[p]
 「おい、これなんだよ。23日って一週間前だよな。[r]俺たちここに来てないよな？」[p]
 俺の言葉に、ゆうこ の頬が引きつるのが分かった。[p]
 なんだその反応は。[p]
-
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -45,7 +55,7 @@
 #
 歯切れの悪い返答が返ってくる。[p]
 明らかに困惑している。[r]しかし、何かを隠しているとしても理屈が合わない。[p]
-見られてマズいものだと最初から分かっていたらそもそも見せないだろう。[r]表紙にも見るなと書かれていたのだから。[p]
+見られてマズいものだと最初から分かっていたら、[r]そもそも見せないだろう。[r]表紙にも見るなと書かれていたのだから。[p]
 しかし、ゆうこ はこれを見てもいいと言った。[r]そして見たら内容をはぐらかそうとしている。[p]
 まるで日記の内容はおろか存在自体を知らなかったみたいだ。[r]ゆうこ の日記帳であるはずなのに。[p]
 #ねこ
@@ -130,8 +140,10 @@
 「あのモミの木に花が飾られてるってことは、[r]あんたが占いを実行したことを意味しているの」[p]
 「何かを願った。[r]でも、何を？」[p]
 「私はその答えが知りたいの。[r]ううん、知らなくちゃいけないの」[p]
-「だからね、あなたはその日記のページをめくって」[p]
+「だからね、あんたはその日記のページをめくって」[p]
 「一週間前に何があんたと、ゆうこ に降りかかったのか知らなくちゃならないの」[p]
+#
 [_tb_end_text]
 
+[chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="cat_omote_4.ks"  target=""  ]
