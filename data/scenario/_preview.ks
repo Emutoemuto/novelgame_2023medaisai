@@ -1,27 +1,47 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  method="crossfade"  storage="山昼.jpg"  ]
+[bg  time="10"  method="crossfade"  storage="1701.png"  ]
 [tb_show_message_window] 
-[chara_mod  name="ゆうこ‘"  time="10"  cross="true"  storage="chara/5/閉猫_通常.png"  ]
-[chara_show  name="ゆうこ？"  time="10"  wait="true"  storage="chara/6/ノベルゲー　女友達_真顔_(1).png"  width="760"  height="1030"  left="338"  top="-1"  reflect="false"  ]
-[chara_show  name="ゆうこ‘"  time="10"  wait="true"  storage="chara/5/閉猫_閉眼.png"  width="680"  height="680"  left="-95"  top="-8"  reflect="false"  ]
 [mask_off time=10]
 [tb_start_text mode=1 ]
 #
-あまりのショックに体中の筋肉が弛緩し、[r]腕をだらりと下げてしまった。[p]
-その拍子に持っていた日記帳が音を立てて床に落ちた。[p]
-それを目で追うと、[r]落ちた拍子に日記帳の末ページが無造作に開かれていた。[p]
-続きが書かれることのない日記帳。[r]もちろんその最終頁には何も書かれていないはず。[p]
-しかし、そこにはびっしりと何かが書かれていた。[p]
-黒く、強い力で書かれた文字。[r]不細工で不格好な文字。[p]
-それは ゆうこ の文字ではなく、俺の文字だった。[p]
-ゆうこ の日記帳の最終頁に俺の文章が書かれている。[p]
-
+全てが書かれていた。[p]
+”大切なひと”を失った叫びが、[r]余すことなく全て。[p]
+最初は書き殴られていた文字も、次第に筆圧が弱まっていた。[p]
+ゆうこ の死に直面した俺は、決したのだ。[p]
+どうやって向き合うのか。[p]
+だが、胸を締め付ける痛みが襲う。[p]
+この最後の頁を書いた本人は、[r]既にここにいないから。[p]
+つらい記憶と共に、おまじないの元に捧げられてしまった。[p]
+今の俺は、俺であって俺ではない。[p]
+だが、俺は俺一人しかいない。[r]”大切なひと”を送れるのは、俺しかいない。[p]
 [_tb_end_text]
 
-[chara_mod  name="ゆうこ‘"  time="600"  cross="true"  storage="chara/5/閉猫_驚き.png"  ]
+[bg  time="1000"  method="crossfade"  storage="山昼.jpg"  ]
+[chara_show  name="ゆうこ‘"  time="1000"  wait="true"  storage="chara/5/無題14_20231009135335.png"  width="680"  height="680"  left="156"  top="-8"  reflect="false"  ]
 [tb_start_text mode=1 ]
-俺はその場に立膝をして床に落ちたままの日記帳を覗き見た。[r]視界の隅に 猫の姿をしたゆうこ も、[r]瞳孔を目いっぱい広げながら最終頁に視線を送っているのが見えた。[p]
+#
+ねこも日記を読んだようで、[r]長く伸びたヒゲ先を弱弱しく撓ませた。[r]目は伏目がちになっており、その様子は伺えない。[p]
+#ゆうこ‘
+「あぁあ、読まなきゃよかった」[p]
+#
+「えっ？」[p]
+その無遠慮な言葉に、思わず声が漏れる。[p]
+すると、ゆうこ はねこの小さな足に力を込めた。[r]その拍子に爪がきゅっと顔を覗かせた。[p]
+#ゆうこ‘
+「だって、こんなの読んだら死にたくなくなっちゃうじゃん」[p]
+「せっかく自分の中で自分の死を消化しようとしてたのに、[r]こんな告白を読まされたら、生きたくなっちゃうよ」[p]
+「でも、そんなの許されないよね。許しちゃだめだよ」[p]
+#
+ゆうこ は顔を上げた。[p]
+[_tb_end_text]
+
+[chara_mod  name="ゆうこ‘"  time="600"  cross="true"  storage="chara/5/閉猫_赤面.png"  ]
+[tb_start_text mode=1 ]
+#
+陳腐な言葉だが、その顔は嬉しそうだった。[r]この上なく。[p]
+#ゆうこ‘
+「ついでに私の未練も断ち切ってよね！[r]きちんとお別れ、しよっか」[p]
 [_tb_end_text]
 

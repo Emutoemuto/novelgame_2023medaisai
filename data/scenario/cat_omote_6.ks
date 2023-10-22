@@ -86,7 +86,7 @@
 
 [_tb_end_text]
 
-[glink  color="black"  storage="cat_omote_6.ks"  size="20"  x="-10"  y="257"  width=""  height=""  text="お前が、ゆうこ なのか？"  _clickable_img=""  target="*お前が、ゆうこ_なのか？"  ]
+[glink  color="black"  storage="cat_omote_6.ks"  size="20"  x="-10"  y="257"  width=""  height=""  text="お前が、ゆうこ&nbsp;なのか？"  _clickable_img=""  target="*お前が、ゆうこ_なのか？"  ]
 [glink  color="black"  storage="cat_omote_6.ks"  size="20"  x="-10"  y="312"  width=""  height=""  text="そんなの嘘だ！"  _clickable_img=""  target="*そんなの嘘だ！"  ]
 [glink  color="black"  storage="cat_omote_6.ks"  size="20"  x="-11"  y="369"  width=""  height=""  text="……。"  _clickable_img=""  target="*……。"  ]
 [s  ]
@@ -158,4 +158,4 @@
 俺はその場に立膝をして床に落ちたままの日記帳を覗き見た。[r]視界の隅に 猫の姿をしたゆうこ も、[r]瞳孔を目いっぱい広げながら最終頁に視線を送っているのが見えた。[p]
 [_tb_end_text]
 
-[jump  storage="cat_omote_6.ks"  target=""  ]
+[jump  storage="cat_omote_7.ks"  target=""  ]
