@@ -136,6 +136,118 @@
 
 [tb_image_hide  time="1000"  ]
 [tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="523"  height="523"  x="4"  y="57"  _clickable_img=""  name="img_42"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="528"  height="528"  x="367"  y="49"  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="528"  height="528"  x="367"  y="49"  _clickable_img=""  name="img_43"  ]
+[tb_start_text mode=1 ]
+#唯他敬介
+敵は恐らくゴーレム系統の魔術だ。[p]
+なら、心臓部分を突けば少なくとも動きは止まるはずだ。林を走ってスキをつくる。[p]
+「ハアア！！」[p]
+
+[_tb_end_text]
+
+[tb_image_show  time="1000"  storage="default/ビーム、刺突white.png"  width="122"  height="122"  x="551"  y="215"  _clickable_img=""  name="img_45"  ]
+[tb_image_show  time="1000"  storage="default/ビーム、刺突white.png"  width="97"  height="97"  x="245"  y="243"  _clickable_img=""  name="img_46"  ]
+[tb_start_text mode=1 ]
+#唯他敬介
+追って来たところに素早く2連撃をかます。[p]
+[_tb_end_text]
+
+[tb_image_hide  time="1000"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="476"  height="476"  x="-61"  y="51"  _clickable_img=""  name="img_49"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="525"  height="525"  x="210"  y="26"  _clickable_img=""  name="img_50"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="495"  height="495"  x="525"  y="27"  _clickable_img=""  name="img_51"  ]
+[tb_start_text mode=1 ]
+#唯他敬介
+「くそっ！次々に出てくる！」[p]
+#ヒヨコのマスター
+「やるねえ、これはどうだい？」[p]
+[_tb_end_text]
+
+[tb_image_hide  time="1000"  ]
+[tb_image_show  time="1000"  storage="default/雷ビームpng.png"  width="800"  height="800"  x="65"  y="-84"  _clickable_img=""  name="img_54"  ]
+[tb_start_text mode=1 ]
+#唯他敬介
+「ぐあっ！！」[p]
+複数の黒ヒヨコを囮にして、その後ろから黒ヒヨコごと魔力弾で焼く。[p]
+シンプルだが、強力だ。直撃は避けたがもうろくに動けない。[p]
+[_tb_end_text]
+
+[tb_image_hide  time="1000"  ]
+[chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター.png"  width="609"  height="863"  left="-45"  top="55"  reflect="false"  ]
+[chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ_威嚇.png"  width="567"  height="804"  left="326"  top="-72"  reflect="false"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[tb_start_text mode=1 ]
+#ヒヨコ
+「ピョピョピン！」[p]
+#ヒヨコのマスター
+「私は君に興味はない。ただA-09を返して欲しいだけなんだ」[p]
+#唯他敬介
+「A-09……？」[p]
+#ヒヨコのマスター
+「ああ、この黄色いヒヨコのことさ。」[p]
+「もう気づいてるだろ？さっきのもコイツも私が生み出したものだ」[p]
+「私には、娘がいたんだが幼い頃に病気で亡くしてしまってね」[p]
+[_tb_end_text]
+
+[chara_mod  name="ヒヨコのマスター"  time="600"  cross="true"  storage="chara/8/ノベルゲー　マスター_キマリ.png"  ]
+[tb_start_text mode=1 ]
+#ヒヨコのマスター
+「だから、錬金術の秘奥であるエリクサーを作って蘇らせたいんだよ。９年前もこの街で試したんだが、その時は唯他衛寿に邪魔されてね」[p]
+#唯他敬介
+（！？）[p]
+（こいつだ……俺が巻き込まれた火事の原因はこいつだ‼しかも、ジイサンがそこに関わっていたなんて!）[p]
+「じゃあ、９年前の火事の原因は……」[p]
+#ヒヨコのマスター
+「ああ、私さ！！そうだ！エリクサーが完成した暁にはここら一帯の火事を無かったことにしよう！エリクサーさえあればそれぐらい可能だ！」[p]
+#唯他敬介
+「無かったことにするだと……？」[p]
+「ふざけんな！既に起きたことを無かったことになんてしちゃいけないんだよ！」[p]
+そう。例え可能だとしても。消えた人たちの傷、想いまで消えてしまったら一体誰がその無念を引き継げるのだろうか？[p]
+#ヒヨコ
+「ピョピョー!!」[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[tb_show_message_window  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  ]
+[tb_start_text mode=1 ]
+#唯他敬介
+その時、不思議なことが起こった。俺とピョンは１つになり、魔力が湧き上がってきた。[p]
+（もう動ける！）[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[tb_image_show  time="0"  storage="default/M4TLdp75trgH21r1697945250_1697945486.png"  width="507"  height="38"  x="204"  y="279"  _clickable_img=""  name="img_69"  ]
+[tb_image_show  time="1000"  storage="default/qugYc1awTS7yymV1697958782_1697958791.png"  width="579"  height="525"  x="133"  y="-28"  _clickable_img=""  name="img_70"  ]
+[l  ]
+[tb_image_hide  time="1000"  ]
+[chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター.png"  width="463"  height="658"  left="81"  top="85"  reflect="false"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#唯他敬介
+（溢れた魔力を鉄の棒に込める！）[p]
+「うおおおおお！！！」[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[tb_image_show  time="1000"  storage="default/斬撃エフェクト.png"  width="640"  height="640"  x="-45"  y="17"  _clickable_img=""  name="img_77"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[tb_image_hide  time="1000"  ]
+[chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター_死にかけ.png"  width="486"  height="689"  left="101"  top="65"  reflect="false"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#ヒヨコのマスター
+「shit!こんな３流魔術師にやられるとは！」[p]
+「とにかく、A-09を回収せねば……」[p]
+「どこに行った！逃げたのか！」[p]
+#唯他敬介
+どうやら、俺とピョンが１つになったことでピョンがどこかに行ったと勘違いしたようだ。[p]
+（どうだ……ざまあ…見やがれ……）[p]
+[_tb_end_text]
+
+[stopbgm  time="1000"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="hiyoko_9.ks"  target=""  ]
 [s  ]
