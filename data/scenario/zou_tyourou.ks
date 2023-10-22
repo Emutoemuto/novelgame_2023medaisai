@@ -26,7 +26,7 @@
 
 [chara_show  name="ジイサン"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター.png"  width="729"  height="1032"  left="179"  top="-5"  reflect="false"  ]
 [tb_start_text mode=1 ]
-#長老
+#ジイサン
 「若いのがくるなんて珍しいのお。それで、今日はどうしたんじゃ？」 [p]
 #
 僕は裏山の象について話した。 どうせ信じてなんてくれない。そう思っていたが……。[p]
