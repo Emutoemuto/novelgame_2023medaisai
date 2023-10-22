@@ -2,6 +2,7 @@
 
 *start
 
+[playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
 [bg  time="1000"  method="fadeInDown"  storage="家昼.PNG"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -50,6 +51,7 @@
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide_all  time="0"  wait="true"  ]
 [jump  storage="hiyoko_7.ks"  target="*start"  ]
 [s  ]

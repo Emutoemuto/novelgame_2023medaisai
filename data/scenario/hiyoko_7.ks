@@ -2,6 +2,7 @@
 
 *start
 
+[playbgm  volume="100"  time="1000"  loop="true"  storage="music.ogg"  ]
 [tb_show_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="教室.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
@@ -57,6 +58,7 @@
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="hiyoko_8.ks"  target="*start"  ]
 [s  ]
