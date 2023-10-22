@@ -29,6 +29,7 @@
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [chara_hide_all  time="0"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="1701.png"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #唯他敬介
@@ -44,6 +45,22 @@
 [tb_start_text mode=1 ]
 #唯他敬介
 大きな揺れ。湧き上がる悲鳴、熱、阿鼻叫喚の群れ。あとはもう地獄だった。[p]
+俺が唯他敬介ではなく●●敬介であった幼い頃、タンクローリーの横転が起こした火事に巻き込まれた。[p]
+火事は地域一帯を飲み込み、俺の家族は全員死んだ。[p]
+#●●敬介
+「ハア……ハア……ゲホ！！」[p]
+何とか倒壊する家から抜け出せたがそこが限界で俺は倒れた。体の感覚はもうない。[p]
+#？？？
+「ピ……ヨ……」[p]
+#●●敬介
+何かの声が聞こえるのと同時に、体に急に熱が戻ってあちこちの傷が痛みだした。[p]
+何か聞こえてくるようだ。[p]
+#ジイサン
+「おい！」[p]
+「よかった！まだ生きてる！今、助けるからな！」[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[jump  storage="hiyoko_9.ks"  target="*start"  ]
 [s  ]

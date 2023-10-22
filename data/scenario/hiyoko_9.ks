@@ -1,10 +1,32 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_hiyoko_9.ks]
 
-[mask time=10]
-[bg  time="10"  method="fadeInRight"  storage="道路昼.jpg"  ]
-[tb_show_message_window] 
-[chara_show  name="ゆうこ"  time="10"  wait="true"  storage="chara/3/ノベルゲー　女友達_怒り顔.png"  width="451"  height="642"  left="299"  top="69"  reflect="false"  ]
-[mask_off time=10]
+*start
+
+[bg  time="1000"  method="crossfade"  storage="kyousitu.png"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#唯他敬介
+その地獄から救い出してくれたのが、ジイサンこと唯他衛寿だった。俺はジイサンの養子となり、唯他敬介を名乗っている。[p]
+（あの時の光景は久しぶりに見たな。何で今更？）[p]
+（しかも、ジイサンに助けられる直前で誰かに声をかけられたような……）[p]
+#ゆうこ
+「ねえ！」[p]
+「ねえってば！」[p]
+#唯他敬介
+「え？」[p]
+[_tb_end_text]
+
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_怒り顔.png"  width="451"  height="642"  left="299"  top="69"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#ゆうこ
+「え？じゃないよ！」[p]
+「何寝てんのよ！今日からは時間あるんだからピョン君の情報集めに行くわよ！」[p]
+#唯他敬介
+「分かってるよ」[p]
+[_tb_end_text]
+
+[bg  time="1000"  method="fadeInRight"  storage="道路昼.jpg"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 「今日はどこまで行くの？」[p]
