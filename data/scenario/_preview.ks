@@ -1,15 +1,102 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  method="crossfade"  storage="山昼.jpg"  ]
+[bg  time="10"  method="crossfade"  storage="1701.png"  ]
 [tb_show_message_window] 
-[chara_mod  name="ゆうこ？"  time="10"  cross="true"  storage="chara/6/ノベルゲー　女友達_真顔_(1).png"  ]
-[chara_mod  name="ゆうこ‘"  time="10"  cross="true"  storage="chara/5/開猫_通常.png"  ]
 [mask_off time=10]
+[bg  time="1000"  method="crossfade"  storage="山昼.jpg"  ]
+[chara_show  name="ゆうこ？"  time="1000"  wait="true"  storage="chara/6/ノベルゲー　女友達_真顔_(1).png"  width="760"  height="1030"  left="338"  top="-1"  reflect="false"  ]
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/閉猫_閉眼_(1).png"  width="680"  height="680"  left="-95"  top="-8"  reflect="false"  ]
 [tb_start_text mode=1 ]
-注：まだ解明されていない謎が残されています。現在は裏ルートを攻略しました。物語の真相を知るには表ルートを探索することを強く推奨します。[p]
+#ねこ
+「私はねこと一緒に死んだ」[p]
+「それが日記に無い、26日の始終」[p]
+#
+その話だと、まるでねこが ゆうこ その人のような語られ方だった。[p]
+#ねこ
+「私は ゆうこ。[r]あの時、ねこを追って死んでった残念で憐れな女の子」[p]
+「死んだはずなのに、[r]何故か一緒に死んだねこと瓜二つの姿で星となって降ってきた」[p]
+「死んだら生き返らない。[r]ふつうはそう」[p]
+「でも、ふつうじゃないことが起きた。[r]私はこうしてコウちゃんと話してる」[p]
+「それなら、何が起こったのか。[r]答えは限られてる」[p]
+「コウちゃん。[r]あんたがベツレヘム占いをやって、何かを願ったの」[p]
+#
+ねこは、いや、ゆうこ と言うべきか。[r]なんにせよ、その滔々と語られた内容はおぞましく脳内をかき乱した。[p]
+まるで、脳ミソごとミキサーに突っ込まれたみたいな気持ち悪さ。[r]足元がひどくぬかるんでいるような気がして、[r]足の指で床を有無を確かめようとする。[p]
+
+
 [_tb_end_text]
 
-[tb_hide_message_window  ]
-[glink  color="black"  storage="copy_of_cat1.ks"  size="20"  text="表ルートに行きますか？"  target="*neko_start"  x="295"  y="293"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="cat_omote_6.ks"  size="20"  x="-10"  y="257"  width=""  height=""  text="お前が、ゆうこ&nbsp;なのか？"  _clickable_img=""  target="*お前が、ゆうこ_なのか？"  ]
+[glink  color="black"  storage="cat_omote_6.ks"  size="20"  x="-10"  y="312"  width=""  height=""  text="そんなの嘘だ！"  _clickable_img=""  target="*そんなの嘘だ！"  ]
+[glink  color="black"  storage="cat_omote_6.ks"  size="20"  x="-11"  y="369"  width=""  height=""  text="……。"  _clickable_img=""  target="*……。"  ]
 [s  ]
+*お前が、ゆうこ_なのか？
+
+[tb_start_text mode=1 ]
+#
+信じられない。[p]
+ゆうこ が死んでいる？[r]そして、ねこが ゆうこ になって生き返って、[r]それでそれが俺の願いが原因で？[p]
+なら、目の前に立っている ゆうこ は誰なんだ？[r]俺の忘れた願いってなんだ？[p]
+疑問が血管を通じて体全体に行き渡る気がした。[r]とても冷たい血液を感じる。[p]
+[_tb_end_text]
+
+[chara_mod  name="ゆうこ‘"  time="600"  cross="true"  storage="chara/5/閉猫_通常.png"  ]
+[tb_start_text mode=1 ]
+#ゆうこ‘
+「またこうして会えるなんて、[r]思ってもなかった」[p]
+「やっほ！ コウちゃん！」[p]
+#
+その口ぶりは、紛うことなく ゆうこ のそれだった。[p]
+死んだはずの人間が語り掛けている。[r]どこにも現実味がない。[p]
+[_tb_end_text]
+
+[jump  storage="cat_omote_6.ks"  target="*common_表５"  ]
+*そんなの嘘だ！
+
+[tb_start_text mode=1 ]
+#
+俺は言葉のままに叫んだ。[p]
+全て現実ではない。[r]喋るねこも、存在しないはずの日記も、何もかも。[p]
+それなのに、[r]心の片隅でそれが冷徹な事実であると認識してしまっている。[p]
+#ゆうこ‘
+「本物のゆうこ だからこそ、日記の場所も分かる」[p]
+「そこに何が書かれてるのかも、ね」[p]
+#
+目の前にいる 人の形をしたゆうこ は、[r]日記の内容はおろか存在自体知らないようだった。[p]
+整合性が取れてるのは、明らかにねこの方だ。[p]
+[_tb_end_text]
+
+[jump  storage="cat_omote_6.ks"  target="*common_表５"  ]
+*……。
+
+[tb_start_text mode=1 ]
+#
+あまりの衝撃に言葉を見つけることができなかった。[p]
+ゆうこ が死んだ。[r]ずっとそこにいた、そこにいるのが当たり前だった ゆうこ が。[p]
+記憶が無いのだから納得はできない。[r]でも、感覚がそれを肯定している。[p]
+ゆうこ は確かに死んでいる。[r]妙に納得しているのは、俺のなくした記憶故か。[p]
+[_tb_end_text]
+
+[jump  storage="cat_omote_6.ks"  target="*common_表５"  ]
+*common_表５
+
+[tb_start_text mode=1 ]
+#
+あまりのショックに体中の筋肉が弛緩し、[r]腕をだらりと下げてしまった。[p]
+その拍子に持っていた日記帳が音を立てて床に落ちた。[p]
+それを目で追うと、[r]落ちた拍子に日記帳の末ページが無造作に開かれていた。[p]
+続きが書かれることのない日記帳。[r]もちろんその最終頁には何も書かれていないはず。[p]
+しかし、そこにはびっしりと何かが書かれていた。[p]
+黒く、強い力で書かれた文字。[r]不細工で不格好な文字。[p]
+それは ゆうこ の文字ではなく、俺の文字だった。[p]
+ゆうこ の日記帳の最終頁に俺の文章が書かれている。[p]
+
+[_tb_end_text]
+
+[chara_mod  name="ゆうこ‘"  time="600"  cross="true"  storage="chara/5/閉猫_驚き.png"  ]
+[tb_start_text mode=1 ]
+俺はその場に立膝をして床に落ちたままの日記帳を覗き見た。[r]視界の隅に 猫の姿をしたゆうこ も、[r]瞳孔を目いっぱい広げながら最終頁に視線を送っているのが見えた。[p]
+[_tb_end_text]
+
+[jump  storage="cat_omote_7.ks"  target=""  ]

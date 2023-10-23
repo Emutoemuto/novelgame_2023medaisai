@@ -2,7 +2,7 @@
 ;ねこ
 [chara_new  name="ねこ"  jname="ねこ"  storage="chara/2/無題14_20231009135253.png"  ]
 ;ゆうこ
-[chara_new  name="ゆうこ"  jname="ゆうこ"  storage="chara/3/ノベルゲー　女友達.png"  ]
+[chara_new  name="ゆうこ"  jname="ゆうこ"  storage="chara/3/ノベルゲー　女友達_ニヤツキ.png"  ]
 ;ヒヨコ
 [chara_new  name="ヒヨコ"  jname="ヒヨコ"  storage="chara/4/ノベルゲー　ひよこ.png"  ]
 ;ゆうこ‘

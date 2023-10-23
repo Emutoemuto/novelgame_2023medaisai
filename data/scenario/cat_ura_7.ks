@@ -2,7 +2,7 @@
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
-[chara_show  name="ゆうこ‘"  time="1000"  wait="true"  storage="chara/5/閉猫_通常.png"  width="680"  height="680"  left="146"  top="-7"  reflect="false"  ]
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/閉猫_通常_(1).png"  width="680"  height="680"  left="146"  top="-7"  reflect="false"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -19,13 +19,13 @@
 気が付くと、裏山に足が向いていた。[p]
 昨日来たばかりの、しかし、もう何もかも違うこの場所に。[p]
 「ゆうこ、なんだよな」[p]
-#ゆうこ‘
+#ゆうこ
 「そうだねぇ」[p]
 軽く、浮かび上がるような声。[p]
 空気に希釈されてしまうみたい。[p]
 #
 「お前が ゆうこ なら、昨日一緒にいた〝ゆうこ〟って」[p]
-#ゆうこ‘
+#ゆうこ
 「さぁね」[p]
 「あたしにも詳しくは分かんない」[p]
 「でも、何が起こったのかは、なんとなく分かると思う」[p]
@@ -35,7 +35,7 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#ゆうこ‘
+#ゆうこ
 「予想が正しいんなら、きっとそこにあるはず」[p]
 「こんなことになった原因が」[p]
 #
@@ -51,9 +51,9 @@
 [s  ]
 *おまじないのせい、か
 
-[chara_mod  name="ゆうこ‘"  time="600"  cross="true"  storage="chara/5/無題14_20231009135335.png"  ]
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/無題14_20231009135335_(1).png"  ]
 [tb_start_text mode=1 ]
-#ゆうこ‘
+#ゆうこ
 「覚えてたんだ」[p]
 「おまじないは悪くないの」[p]
 「誰が悪いかって言われたら、多分あたしが一番悪い、かな」[p]
@@ -61,7 +61,7 @@
 ねこは階段を上りながら、ぽつぽつと呟いた。[p]
 「それ、どういう意味？」[p]
 怪訝な声が小さな背中に投げられた。[p]
-#ゆうこ‘
+#ゆうこ
 「私があんたに、あのおまじないを教えちゃったから」[p]
 「あんな事を願っちゃったから」[p]
 #
@@ -74,14 +74,14 @@
 [jump  storage="cat_ura_7.ks"  target="*common６"  ]
 *俺のせい、か
 
-[chara_mod  name="ねこ"  time="600"  cross="true"  storage="chara/2/無題14_20231009135335.png"  ]
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/無題14_20231009135335_(1).png"  ]
 [tb_start_text mode=1 ]
-#ゆうこ‘
+#ゆうこ
 「何も分からないのに自分のせいだなんて言わないで」[p]
 #
 その言葉は一見冷淡に聞こえるが、その声色には妙に熱が籠っていた。[p]
 俺はその場にはたと立ち止まった。俺と ゆうこ の間が一歩分だけ空き、そこに夏風がふわりとそよいだ。[p]
-#ゆうこ‘
+#ゆうこ
 「ごめん、言い過ぎたかも」[p]
 「今回はもとはと言えばあたしが悪いの」[p]
 「だから、仕方なかったんだよ」[p]
@@ -105,7 +105,7 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#ゆうこ‘
+#ゆうこ
 「見えてきた」[p]
 #
 ゆうこ の歩調が一瞬だけ乱れ、鼻先がくいっと上がるのが見えた。[p]

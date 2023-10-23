@@ -37,17 +37,17 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="山昼.jpg"  ]
-[chara_show  name="ゆうこ‘"  time="1000"  wait="true"  storage="chara/5/無題14_20231009135335.png"  width="680"  height="680"  left="156"  top="-8"  reflect="false"  ]
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/無題14_20231009135335_(1).png"  width="680"  height="680"  left="156"  top="-8"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #
 ねこも日記を読んだようで、[r]長く伸びたヒゲ先を弱弱しく撓ませた。[r]目は伏目がちになっており、その様子は伺えない。[p]
-#ゆうこ‘
+#ゆうこ
 「あぁあ、読まなきゃよかった」[p]
 #
 「えっ？」[p]
 その無遠慮な言葉に、思わず声が漏れる。[p]
 すると、ゆうこ はねこの小さな足に力を込めた。[r]その拍子に爪がきゅっと顔を覗かせた。[p]
-#ゆうこ‘
+#ゆうこ
 「だって、こんなの読んだら死にたくなくなっちゃうじゃん」[p]
 「せっかく自分の中で自分の死を消化しようとしてたのに、[r]こんな告白を読まされたら、生きたくなっちゃうよ」[p]
 「でも、そんなの許されないよね。許しちゃだめだよ」[p]
@@ -55,11 +55,11 @@
 ゆうこ は顔を上げた。[p]
 [_tb_end_text]
 
-[chara_mod  name="ゆうこ‘"  time="600"  cross="true"  storage="chara/5/閉猫_赤面.png"  ]
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/閉猫_赤面_(1).png"  ]
 [tb_start_text mode=1 ]
 #
 陳腐な言葉だが、その顔は嬉しそうだった。[r]この上なく。[p]
-#ゆうこ‘
+#ゆうこ
 「ついでに私の未練も断ち切ってよね！[r]きちんとお別れ、しよっか」[p]
 [_tb_end_text]
 

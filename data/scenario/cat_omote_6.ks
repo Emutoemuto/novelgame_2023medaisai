@@ -65,14 +65,14 @@
 
 [bg  time="1000"  method="crossfade"  storage="山昼.jpg"  ]
 [chara_show  name="ゆうこ？"  time="1000"  wait="true"  storage="chara/6/ノベルゲー　女友達_真顔_(1).png"  width="760"  height="1030"  left="338"  top="-1"  reflect="false"  ]
-[chara_show  name="ゆうこ‘"  time="1000"  wait="true"  storage="chara/5/閉猫_閉眼.png"  width="680"  height="680"  left="-95"  top="-8"  reflect="false"  ]
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/閉猫_閉眼_(1).png"  width="680"  height="680"  left="-95"  top="-8"  reflect="false"  ]
 [tb_start_text mode=1 ]
-#ねこ
+#ゆうこ
 「私はねこと一緒に死んだ」[p]
 「それが日記に無い、26日の始終」[p]
 #
 その話だと、まるでねこが ゆうこ その人のような語られ方だった。[p]
-#ねこ
+#ゆうこ
 「私は ゆうこ。[r]あの時、ねこを追って死んでった残念で憐れな女の子」[p]
 「死んだはずなのに、[r]何故か一緒に死んだねこと瓜二つの姿で星となって降ってきた」[p]
 「死んだら生き返らない。[r]ふつうはそう」[p]
@@ -100,9 +100,9 @@
 疑問が血管を通じて体全体に行き渡る気がした。[r]とても冷たい血液を感じる。[p]
 [_tb_end_text]
 
-[chara_mod  name="ゆうこ‘"  time="600"  cross="true"  storage="chara/5/閉猫_通常.png"  ]
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/閉猫_通常_(1).png"  ]
 [tb_start_text mode=1 ]
-#ゆうこ‘
+#ゆうこ
 「またこうして会えるなんて、[r]思ってもなかった」[p]
 「やっほ！ コウちゃん！」[p]
 #
@@ -118,7 +118,7 @@
 俺は言葉のままに叫んだ。[p]
 全て現実ではない。[r]喋るねこも、存在しないはずの日記も、何もかも。[p]
 それなのに、[r]心の片隅でそれが冷徹な事実であると認識してしまっている。[p]
-#ゆうこ‘
+#ゆうこ
 「本物のゆうこ だからこそ、日記の場所も分かる」[p]
 「そこに何が書かれてるのかも、ね」[p]
 #
@@ -153,7 +153,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="ゆうこ‘"  time="600"  cross="true"  storage="chara/5/閉猫_驚き.png"  ]
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/閉猫_驚き_(1).png"  ]
 [tb_start_text mode=1 ]
 俺はその場に立膝をして床に落ちたままの日記帳を覗き見た。[r]視界の隅に 猫の姿をしたゆうこ も、[r]瞳孔を目いっぱい広げながら最終頁に視線を送っているのが見えた。[p]
 [_tb_end_text]

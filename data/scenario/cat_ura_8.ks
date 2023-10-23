@@ -3,7 +3,7 @@
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [bg  time="1000"  method="crossfade"  storage="山昼.jpg"  ]
 [tb_show_message_window  ]
-[chara_show  name="ゆうこ‘"  time="1000"  wait="true"  storage="chara/5/無題14_20231009135335.png"  width="680"  height="680"  left="180"  top="-23"  reflect="false"  ]
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/無題14_20231009135335_(1).png"  width="680"  height="680"  left="180"  top="-23"  reflect="false"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
 #
@@ -13,7 +13,7 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#ゆうこ‘
+#ゆうこ
 「こっち」[p]
 #
 不安げに体に巻かれた尻尾がゆっくりと解かれ、振り子のように揺られている。[p]
@@ -37,7 +37,7 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#ゆうこ‘
+#ゆうこ
 「やっぱり」[p]
 #
 力なくヒゲを垂らした ゆうこ は、ぼんやりとツリーの天辺を見つめていた。[p]
@@ -64,9 +64,9 @@
 ゆっくりと振り向き、そして正対する。[p]
 [_tb_end_text]
 
-[chara_hide  name="ゆうこ‘"  time="1000"  wait="true"  pos_mode="true"  ]
-[chara_show  name="ゆうこ‘"  time="1000"  wait="true"  storage="chara/5/閉猫_怪訝.png"  width="680"  height="680"  left="-90"  top="-3"  reflect="false"  ]
-[chara_show  name="ゆうこ？"  time="1000"  wait="true"  storage="chara/6/ノベルゲー　女友達_ニヤツキ_(1).png"  width="760"  height="1030"  left="342"  top="4"  reflect="false"  ]
+[chara_hide  name="ゆうこ"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/閉猫_怪訝_(1).png"  width="680"  height="680"  left="-72"  top="-3"  reflect="false"  ]
+[chara_show  name="ゆうこ？"  time="1000"  wait="true"  storage="chara/6/ノベルゲー　女友達_ニヤツキ_(1).png"  width="760"  height="1030"  left="356"  top="-1"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #
 人の形をしたゆうこ は、指をスカートの裾に巻き付けていた。[p]
@@ -103,16 +103,16 @@
 [tb_start_text mode=1 ]
 #
 「俺の、想像？」[p]
-#ゆうこ‘
+#ゆうこ
 「やっぱり、そうだったんだ」[p]
 [_tb_end_text]
 
 [quake  time="200"  count="3"  hmax="10"  wait="true"  ]
-[chara_mod  name="ゆうこ‘"  time="600"  cross="true"  storage="chara/5/無題14_20231009135335.png"  ]
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/無題14_20231009135335_(1).png"  ]
 [tb_start_text mode=1 ]
 #
 ゆうこ は尻尾で小屋の床を数度叩き、床に横たわらせた。[p]
-#ゆうこ‘
+#ゆうこ
 「私は死んでたから、あんたが私の死を前にしてどんな感じだったのか分からない。直接見てないんだもの」[p]
 「でも、きっと取り乱したんだと思う。たぶんね……」[p]
 「それで、あんたはこう思い込んだのよ。ゆうこ が死んだのは全部嘘だって。そんなの現実じゃないって」[p]
@@ -124,16 +124,16 @@
 （事故なんてなかった。愛すべき平凡な日常の連続。それが私。あんたの弱さだよ）[p]
 #
 ゆうこ は、俺の心の弱さが見せた幻。事故があったという事実を隠すために補強された姑息な支柱。[p]
-#ゆうこ‘
+#ゆうこ
 「それだけじゃない」[p]
 #
 低い位置から発せられた言葉は、床を伝い壁を反響させた。[p]
-#ゆうこ‘
+#ゆうこ
 「あんたはもう一つ、空想に逃げる以外にやったことがあるはず」[p]
 「この占いだよ」[p]
 #
 ゆうこ は顎を上げ、傍に屹立しているツリーを仰ぎ見た。[p]
-#ゆうこ‘
+#ゆうこ
 「そこにいる幻の私はあんたの想像によって作られたもので、占いの本分とは別の存在なの」[p]
 「あんたは何か、この占いに願ったはず。その結果、私が空から降ってきたんだから」[p]
 「そして、その願いってのも……」[p]
@@ -150,17 +150,17 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#ゆうこ‘
+#ゆうこ
 「あんたが私の死んだときの記憶が無いのも、完全に壊れないようにするためだったのかもね」[p]
 #
 ゆうこ は滔々と自分の死を語った。まるで他人事のように。[p]
 #
 「どうしてそんなに冷静なんだよ」[p]
-#ゆうこ‘
+#ゆうこ
 「それはこっちのセリフよ。もっと取り乱すものかと思ってた」[p]
 #
 ゆうこ は口吻の根元を吊り上がらせた。まるで笑っているみたいに。[p]
-#ゆうこ‘
+#ゆうこ
 「私はこれ以上何も望まないよ。まったく、これポッチも」[p]
 「だって、もう死んだはずなのに。こうやってあんたと喋れてるんだもん」[p]
 「お喋りだけじゃない。いつもの道も、あんたの家も。何もかも」[p]
@@ -170,7 +170,7 @@
 その時になってようやく分かった。[p]
 ゆうこ は俺が取り乱さないように冷静さを取り繕っていたのだ。[p]
 平気なはずがない。一番の当事者は俺ではなく ゆうこ なのだから。[p]
-#ゆうこ‘
+#ゆうこ
 「あぁあ、もっと取り乱すと思ってたのに。調子狂っちゃうなぁ」[p]
 「それにさ、こうやって話してるとさ、もう……」[p]
 #
@@ -248,7 +248,7 @@
 ゆうこ の視線は二人の間を交互に飛んでいた。[p]
 しかし、ふいとその視線は俺の方を捉えたまま止まった。[p]
 そして、[p]
-#ゆうこ‘
+#ゆうこ
 「なんて顔してんのよ」[p]
 #
 え……。[p]
@@ -256,7 +256,7 @@
 濡れていた。温かく柔らかな手触りの液体が、頬の輪郭をぼやかしている。[p]
 まだ液体は温かいが、外気に晒されて急速に熱が消えていくのが分かる。[p]
 それがとても嫌で、俺はぶっきらぼうに腕で頬を拭った。[p]
-#ゆうこ‘
+#ゆうこ
 「お別れしてくれるんなら、もっといい顔してよね」[p]
 「日常の終わりなんだから、いつもどおり振舞ってよ、ね」[p]
 [_tb_end_text]
@@ -299,13 +299,13 @@
 「俺の願いは、なんだったんだ」[p]
 白い花はツリーの天辺で笑うように瞬いている。[p]
 まるで願いの成就を祝福しているみたいに。[p]
-#ゆうこ‘
+#ゆうこ
 「分かんない。でも、進んだんだよ」[p]
 「よかったね。ほんと、よかったぁ」[p]
 
 [_tb_end_text]
 
-[chara_mod  name="ゆうこ‘"  time="600"  cross="true"  storage="chara/5/開猫_閉眼.png"  ]
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/開猫_閉眼_(1).png"  ]
 [tb_start_text mode=1 ]
 #
 振り向くと、目を瞑った ゆうこ が映った。[p]
@@ -316,23 +316,23 @@
 [_tb_end_text]
 
 [wait  time="1500"  ]
-[chara_mod  name="ゆうこ‘"  time="600"  cross="true"  storage="chara/5/開猫_怪訝.png"  ]
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/開猫_怪訝_(1).png"  ]
 [tb_start_text mode=1 ]
 #
 ゆうこ は表情を気付けるように顔を渋った。そして、[p]
-#ゆうこ‘
+#ゆうこ
 「すぐにこっちに来たらタダじゃ置かないからね！」[p]
 「私、ずっと見てるから。いつどんな時でも。悪いことはできないからね」[p]
 
 [_tb_end_text]
 
-[chara_mod  name="ゆうこ‘"  time="600"  cross="true"  storage="chara/5/開猫_通常.png"  ]
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/開猫_通常_(2).png"  ]
 [tb_start_text mode=1 ]
-#ゆうこ‘
+#ゆうこ
 「どんな時でも、見てるから」[p]
 #
 「なんか、怨霊みたいだな」[p]
-#ゆうこ‘
+#ゆうこ
 「うっさい！　見守ってあげるの！」[p]
 「私を置いていくとか、思わないでね」[p]
 「私だって、一緒に進むんだから」[p]
@@ -348,7 +348,7 @@
 
 [wait  time="2000"  ]
 [tb_start_text mode=1 ]
-#ゆうこ‘
+#ゆうこ
 「最後に、これだけは伝えたいの」[p]
 「私ね、あんたのこと好きだったよ」[p]
 「だから、この時間は嬉しかった。ほんと、心からそう思う」[p]
@@ -365,7 +365,7 @@
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0xffffff"  ]
-[chara_hide  name="ゆうこ‘"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="ゆうこ"  time="1000"  wait="true"  pos_mode="true"  ]
 [wait  time="3000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
