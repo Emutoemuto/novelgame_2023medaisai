@@ -198,11 +198,23 @@
 （こいつだ……俺が巻き込まれた火事の原因はこいつだ‼しかも、ジイサンがそこに関わっていたなんて!）[p]
 「じゃあ、９年前の火事の原因は……」[p]
 #ヒヨコのマスター
-「ああ、私さ！！そうだ！エリクサーが完成した暁にはここら一帯の火事を無かったことにしよう！エリクサーさえあればそれぐらい可能だ！」[p]
+「そう。私だよ」[p]
+「唯他衛寿…奴に息子はいない。つまり、君はあの火事の生き残りということだ」[p]
+#唯他敬介
+「それがどうした」[p]
+[_tb_end_text]
+
+[chara_mod  name="ヒヨコのマスター"  time="600"  cross="true"  storage="chara/8/ノベルゲー　マスター_叫び.png"  ]
+[tb_start_text mode=1 ]
+#ヒヨコのマスター
+「エリクサーさえあればやり直せるということだ！君の人生！唯他衛寿と出会わなかった人生を！」[p]
 #唯他敬介
 「無かったことにするだと……？」[p]
+あの炎を、あの地獄を……無かったことに……[p]
 「ふざけんな！既に起きたことを無かったことになんてしちゃいけないんだよ！」[p]
-そう。例え可能だとしても。消えた人たちの傷、想いまで消えてしまったら一体誰がその無念を引き継げるのだろうか？[p]
+そう。例え可能だとしても。それでは、消えた人たちの想いはどこへ向かえばいいのか？[p]
+「それは結果を取り繕っただけだ！」[p]
+「俺は悲しみも傷も抱える！それが生きるってことだ！」[p]
 #ヒヨコ
 「ピョピョー!!」[p]
 [_tb_end_text]
@@ -217,21 +229,15 @@
 （もう動ける！）[p]
 [_tb_end_text]
 
-[tb_hide_message_window  ]
-[tb_image_show  time="0"  storage="default/M4TLdp75trgH21r1697945250_1697945486.png"  width="507"  height="38"  x="204"  y="279"  _clickable_img=""  name="img_69"  ]
-[tb_image_show  time="1000"  storage="default/qugYc1awTS7yymV1697958782_1697958791.png"  width="579"  height="525"  x="133"  y="-28"  _clickable_img=""  name="img_70"  ]
-[l  ]
-[tb_image_hide  time="1000"  ]
 [chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター.png"  width="463"  height="658"  left="81"  top="85"  reflect="false"  ]
-[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #唯他敬介
-（溢れた魔力を鉄の棒に込める！）[p]
+（溢れた魔力を錬成した棒に込める！）[p]
 「うおおおおお！！！」[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/斬撃エフェクト.png"  width="640"  height="640"  x="-45"  y="17"  _clickable_img=""  name="img_77"  ]
+[tb_image_show  time="1000"  storage="default/斬撃エフェクト.png"  width="640"  height="640"  x="-45"  y="17"  _clickable_img=""  name="img_73"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_image_hide  time="1000"  ]
 [chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター_死にかけ.png"  width="486"  height="689"  left="101"  top="65"  reflect="false"  ]
@@ -246,8 +252,9 @@
 （どうだ……ざまあ…見やがれ……）[p]
 [_tb_end_text]
 
-[stopbgm  time="1000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[wait  time="1000"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
-[jump  storage="hiyoko_9.ks"  target=""  ]
+[jump  storage="hiyoko_10.ks"  target="*start"  ]
 [s  ]

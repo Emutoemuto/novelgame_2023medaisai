@@ -8,6 +8,6 @@
 [preload  storage="./data/fgimage/default/M4TLdp75trgH21r1697945250_1697945486.png"  ]
 [preload  storage="./data/fgimage/default/ビーム、刺突white.png"  ]
 [preload  storage="./data/fgimage/default/雷ビームpng.png"  ]
-[preload  storage="./data/fgimage/default/qugYc1awTS7yymV1697958782_1697958791.png"  ]
+[preload  storage="./data/fgimage/chara/8/ノベルゲー　マスター_叫び.png"  ]
 [preload  storage="./data/fgimage/default/斬撃エフェクト.png"  ]
 [return]

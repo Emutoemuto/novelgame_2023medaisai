@@ -1,7 +1,5 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_hiyoko_10.ks]
 
-[mask time=10]
-[mask_off time=10]
 *start
 
 [mask_off  time="1000"  effect="fadeOut"  ]
@@ -54,7 +52,22 @@
 [chara_hide_all  time="1000"  wait="true"  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_怒り顔.png"  width="586"  height="830"  left="228"  top="31"  reflect="false"  ]
 [tb_start_text mode=1 ]
-新しいシナリオです[p]
+#ゆうこ
+「ちょっと！起きたんだったら言ってよね！！すっごく心配したんだからー！」[p]
+「不安になって戻ったら、林の中で倒れてたんだよ！？」[p]
+#唯他敬介
+（ゆうこにはもう隠しておけないな）[p]
+「ゆうこ、ちょっと聞いて欲しいんだ」[p]
+俺はゆうこに話した。魔術の事、ジイサンの事、そして現れたヒヨコ達のマスターの事。[p]
+#ゆうこ
+「ふーん、そんな事があったんだ……」[p]
+#唯他敬介
+「いや、いくら何でも軽くね？」[p]
+[_tb_end_text]
+
+[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_ニヤツキ.png"  ]
+[tb_start_text mode=1 ]
+
 [_tb_end_text]
 
 [stopbgm  time="1000"  ]

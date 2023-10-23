@@ -13,7 +13,6 @@
 [chara_new  name="ジイサン"  jname="ジイサン"  storage="chara/7/5FDjsLwNjSjxmeg1697722673_1697722826.png"  ]
 ;ヒヨコのマスター
 [chara_new  name="ヒヨコのマスター"  jname="ヒヨコのマスター"  storage="chara/8/ノベルゲー　マスター.png"  ]
-;黒ヒヨコ
 ;象
 [chara_new  name="象"  jname="象"  storage="chara/10/zou.png"  ]
 
