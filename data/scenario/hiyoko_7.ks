@@ -12,7 +12,7 @@
 ゆうこは早速聞き込みを始めている。[p]
 [_tb_end_text]
 
-[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達.png"  width="457"  height="648"  left="447"  top="116"  reflect="false"  ]
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達.png"  width="3541"  height="5016"  left="447"  top="116"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
 「ねえねえ、このヒヨコ見たことある？」[p]
