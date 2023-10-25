@@ -44,7 +44,11 @@
 #ゆうこ
 「だから……だから絶対帰ってきてね」[p]
 #唯他敬介
-返事の代わりにサムズアップをして、ピョンと[p]
+返事の代わりにサムズアップをして、ピョンと竹峰神社へ向かう。[p]
 [_tb_end_text]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[tb_hide_message_window  ]
+[jump  storage="hiyoko_12.ks"  target="*start"  ]
 [s  ]

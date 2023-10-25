@@ -2,9 +2,9 @@
 
 *start
 
-[mask_off  time="1000"  effect="fadeOut"  ]
 [bg  time="1000"  method="crossfade"  storage="火事.png"  ]
-[wait  time="1000"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[l  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #唯他敬介
