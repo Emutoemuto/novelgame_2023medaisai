@@ -1,7 +1,5 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_zou_true_nasi_bunki.ks]
 
-[mask time=10]
-[mask_off time=10]
 *true_nasi
 
 [chara_hide_all  time="1000"  wait="true"  ]

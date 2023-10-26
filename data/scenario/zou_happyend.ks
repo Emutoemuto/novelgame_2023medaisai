@@ -24,7 +24,7 @@
 彼が装置についていたボタンを押すと、象はみるみる小さくなっていき、やがて姿を消した[p]
 [_tb_end_text]
 
-[chara_show  name="黒ヒヨコ"  time="1000"  wait="true"  storage="chara/9/黒ヒヨコ_1(暗い).png"  width="2000"  height="2000"  ]
+[chara_show  name="HY1349"  time="1000"  wait="true"  storage="chara/11/タイムパトロール.png"  width="392"  height="1029"  left="308"  top="16"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #HY1349
 「これで象は元の時代に戻れた」 [p]
@@ -36,7 +36,7 @@
 #川口雅
 「変化って、そんな簡単に過去が変わって大丈夫なのでしょうか？ 」[p]
 #HY1349
-「本当はだめなんだが……。今回ばかりは仕方なかった。」[p]
+「本当はだめなんだが……。今回ばかりは仕方なかった」[p]
 「というのも、この象がタイムリープした原因は、象自身にあるんだ」[p]
 「この世界は不思議なもので、未来や過去を強く願うと勝手にタイムリープしてしまうことがあるんだ」[p]
 「だからこの象も、何かの理由でこの時代にくる事を望んでやってきた 」[p]
@@ -54,7 +54,7 @@
 「ごめんなボウズ」[p]
 [_tb_end_text]
 
-[chara_hide  name="黒ヒヨコ"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="HY1349"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 #
 もう未来に戻らなくては[p]
