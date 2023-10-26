@@ -5,7 +5,7 @@
 [bg  time="1000"  method="crossfade"  storage="図書館.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-#主人公
+#川口雅
 「今日はこの地域にあった動物園について調べてみよう。」[p]
 #
 僕とさゆりは一日を昔この街にあった動物園について調べることに費やした。 [p]
@@ -35,5 +35,10 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[jump  storage="zou_zoobook.ks"  target=""  ]
+[tb_eval  exp="f.zou_sinkou+=1"  name="zou_sinkou"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="f.zou_true=1"  name="zou_true"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[jump  storage="zou_day2.ks"  target="*day2"  cond="f.zou_sinkou==1"  ]
+[jump  storage="zou_day3.ks"  target="*day3"  cond="f.zou_sinkou==2"  ]
+[jump  storage="zou_day4.ks"  target="*day4"  cond="f.zou_true==1"  ]
+[jump  storage="zou_day5.ks"  target="*day5"  cond="f.zou_sinkou==3"  ]
 [s  ]
