@@ -62,4 +62,47 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[bg  time="1000"  method="crossfade"  storage="title.jpg"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#川口雅
+今日はゆうこと2人で話題沸騰の動物園に行く途中だ。[p]
+#ゆうこ
+「ねえ、何で高校生にもなって動物園なの？」[p]
+#川口雅
+「いいじゃないか、ニュースで話題になってたぜ。最近生まれた小象が可愛いんだってさ」[p]
+#ゆうこ
+「本当⁉楽しみだな～」[p]
+#川口雅
+「可愛いものに目がないな、まったく」[p]
+ニュースで小象のことが取り上げられていて気になったのは本当だ。[p]
+でも、その象をどこかで見たことのある気がしたのだ。しかも、ごく最近。[p]
+（……駄目だ、思い出せない！）[p]
+「そのうち、思い出すか」[p]
+#ゆうこ
+「何が？」[p]
+#川口雅
+「何でもな～い！」[p]
+何か忘れている。そんな感覚を持ちながら、追い風に背中を押されて動物園に向かう。[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#
+エンディングは全部で３つあります。1日目に戻りますか？[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[glink  color="black"  storage="zou_happyend.ks"  size="20"  target="*again"  text="１日目に戻る"  x="348"  y="243"  width=""  height=""  _clickable_img=""  ]
+[s  ]
+*again
+
+[tb_eval  exp="f.zou_sinkou=0"  name="zou_sinkou"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[tb_eval  exp="f.zou_true=0"  name="zou_true"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
+[tb_show_message_window  ]
+[jump  storage="zou_saisyo.ks"  target="*flag"  ]
 [s  ]
