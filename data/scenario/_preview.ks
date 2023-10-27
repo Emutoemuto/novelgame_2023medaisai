@@ -1,94 +1,44 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
+[bg  time="10"  method="crossfade"  storage="urayama.png"  ]
+[tb_show_message_window] 
+[chara_show  name="HY1349"  time="10"  wait="true"  storage="chara/11/タイムパトロール.png"  width="413"  height="1083"  left="275"  top="48"  reflect="false"  ]
 [mask_off time=10]
-[bg  storage="kyousitu.png"  time="1000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[bg  time="1000"  method="crossfade"  storage="神社夕方.PNG"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="学校_kobayuu.ogg"  ]
 [tb_start_text mode=1 ]
-#
-ある水曜日の昼休み、昼食を食べ終え眠気が出始めていた。[p]
-ふぁぁぁ、少しだけ寝ておくか……[p]
-その時[p]
-#？
-「大変、大変！」[p]
-#
-びく！[p]
+#川口雅
+あれから１年後。今日はおじいちゃんの1回忌だ。[p]
+おじいちゃんの墓の隣には象の墓もちゃんと用意してある。[p]
+「どうか、安らかに眠っていますように」[p]
 [_tb_end_text]
 
-[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達.png"  width="425"  height="603"  left="330"  top="106"  reflect="false"  ]
+[wait  time="3000"  ]
+[tb_start_text mode=1 ]
+#川口雅
+「よし、行くか！」[p]
+冬の空はどこまでも澄んでいる。どうかこの空がいつまでも続きますように。[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
-「なんだ、ゆうこか。どうしたの？」[p]
-この子の名前はゆうこ。元気でおちゃめな性格だが、毎度事件を起こしてはこっちが被害を被る腐れ縁だ。[p]
+エンディングは３つあります。１日目に戻りますか？[p]
 [_tb_end_text]
 
-[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_怒り顔.png"  ]
-[tb_start_text mode=1 ]
-#ゆうこ
-「どうしたの、じゃないよ！」[p]
-「ここじゃまずいから、廊下に出よう」[p]
-#
-「分かったよ」[p]
-[_tb_end_text]
-
-[bg  time="1000"  method="fadeInRight"  storage="教室の廊下.png"  ]
-[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達.png"  ]
-[tb_start_text mode=1 ]
-#ゆうこ
-「ねえ、隕石のかけらが日本にも降るかもしれないっていうニュース流れてたの知ってる？」[p]
-#
-「知ってるけど、確率は低いんじゃないの？」[p]
-#ゆうこ
-「もしかしたら、その隕石が裏山に落ちたかもしれないの！裏山の辺りが光っているのを昨日の夜に見たんだから！」[p]
-
-[_tb_end_text]
-
-[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_ニヤツキ.png"  ]
-[tb_start_text mode=1 ]
-#ゆうこ
-「ねね、今から一緒に見に行かない？」[p]
-[_tb_end_text]
-
-[glink  color="black"  storage="scene1.ks"  size="20"  x="365"  y="308"  width="160"  height="22"  text="見に行かないよ！"  _clickable_img=""  target="*no"  ]
-[glink  color="black"  storage="scene1.ks"  size="20"  x="363"  y="207"  width="160"  height="20"  text="見に行く！"  _clickable_img=""  target="*yes"  ]
+[tb_hide_message_window  ]
+[glink  color="black"  storage="zou_trueend.ks"  size="20"  target="*again"  text="1日目に戻る"  x="375"  y="239"  width=""  height=""  _clickable_img=""  ]
 [s  ]
-*yes
+*again
 
-[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達.png"  ]
-[tb_start_text mode=1 ]
-#ゆうこ
-「おおー、そう言ってくれると思ってたよ！」[p]
-[_tb_end_text]
-
-[jump  storage="scene1.ks"  target="*common"  ]
-*no
-
-[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_怒り顔.png"  ]
-[tb_start_text mode=1 ]
-#ゆうこ
-「むーー！」[p]
-「じゃあ、地理の宿題見せてあげない！！」[p]
-#
-「うっ……」[p]
-「分かったよ、少しだけならいいよ」[p]
-ゆうこは何故か地理だけは得意なので、たまに教わっているのだ。なので、そこを突かれると痛い。[p]
-[_tb_end_text]
-
-*common
-
-[tb_start_text mode=1 ]
-#
-「でも、行くのは放課後になってからね。今から行ったら遅刻しちゃうよ？」[p]
-[_tb_end_text]
-
-[chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_困り顔_(1).png"  ]
-[stopbgm  time="1000"  fadeout="true"  ]
-[tb_start_text mode=1 ]
-#ゆうこ
-「しょうがないな、分かったよ」[p]
-[_tb_end_text]
-
-[chara_hide  name="ゆうこ"  time="1000"  wait="false"  pos_mode="true"  ]
-[jump  storage="UrayamaScene2.ks"  target="*start"  ]
+[bg  time="1000"  method="fadeInRight"  storage="urayama.png"  ]
+[tb_show_message_window  ]
+[tb_eval  exp="f.zou_sinkou=0"  name="zou_sinkou"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[tb_eval  exp="f.zou_true=0"  name="zou_true"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[jump  storage="zou_saisyo.ks"  target="*flag"  ]
 [s  ]

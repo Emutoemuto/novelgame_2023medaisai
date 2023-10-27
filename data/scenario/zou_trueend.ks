@@ -68,9 +68,11 @@
 そんなことを言って男はどこへともなく消えていった。[p]
 [_tb_end_text]
 
-[chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
-[bg  time="1000"  method="crossfade"  storage="title.jpg"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[bg  time="1000"  method="crossfade"  storage="神社夕方.PNG"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #川口雅
@@ -83,7 +85,7 @@
 [tb_start_text mode=1 ]
 #川口雅
 「よし、行くか！」[p]
-青空はどこまでも澄んでいる。どうかこの空がいつまでも続きますように。[p]
+冬の空はどこまでも澄んでいる。どうかこの空がいつまでも続きますように。[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]

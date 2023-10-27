@@ -63,7 +63,7 @@
 
 [tb_hide_message_window  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[bg  time="1000"  method="crossfade"  storage="title.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="道路昼.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
