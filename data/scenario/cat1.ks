@@ -218,7 +218,7 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [stopbgm  time="1000"  ]
-[jump  storage="cat_omote_1.ks"  target=""  ]
+[jump  storage="copy_of_cat_omote_1.ks"  target=""  ]
 *家
 
 [tb_start_text mode=1 ]

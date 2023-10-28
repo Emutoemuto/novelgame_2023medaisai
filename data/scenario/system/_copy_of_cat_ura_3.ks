@@ -1,0 +1,8 @@
+[preload  storage="./data/bgimage/道路夜.jpg"  ]
+[preload  storage="./data/fgimage/chara/2/閉猫_閉眼.png"  ]
+[preload  storage="./data/fgimage/chara/2/閉猫_通常.png"  ]
+[preload  storage="./data/fgimage/chara/2/閉猫_驚き.png"  ]
+[preload  storage="./data/fgimage/chara/2/閉猫_怪訝.png"  ]
+[preload  storage="./data/fgimage/chara/3/ノベルゲー　女友達_真顔.png"  ]
+[preload  storage="./data/fgimage/chara/3/ノベルゲー　女友達.png"  ]
+[return]

@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_cat_ura_8.ks]
+[_tb_system_call storage=system/_copy_of_cat_ura_8.ks]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [bg  time="1000"  method="crossfade"  storage="山昼.jpg"  ]
@@ -406,10 +406,5 @@
 [_tb_end_text]
 
 [resetfont  ]
-[tb_start_text mode=1 ]
-注：まだ解明されていない謎が残されています。現在は裏ルートを攻略しました。物語の真相を知るには表ルートを探索することを強く推奨します。[p]
-[_tb_end_text]
-
 [tb_hide_message_window  ]
-[glink  color="black"  storage="copy_of_cat1.ks"  size="20"  text="表ルートに行きますか？"  target="*neko_start"  x="295"  y="293"  width=""  height=""  _clickable_img=""  ]
 [s  ]
