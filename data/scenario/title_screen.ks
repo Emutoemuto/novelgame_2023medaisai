@@ -4,6 +4,7 @@
 
 [tb_clear_images]
 
+[playbgm  volume="100"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  ]
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
 [bg  storage="背景②.png"  ]

@@ -2,6 +2,7 @@
 
 *tiikibook
 
+[playbgm  volume="100"  time="1000"  loop="true"  storage="music.ogg"  ]
 [bg  time="1000"  method="crossfade"  storage="図書館.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -16,6 +17,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_eval  exp="f.zou_sinkou+=1"  name="zou_sinkou"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [jump  storage="zou_day2.ks"  target="*day2"  cond="f.zou_sinkou==1"  ]
 [jump  storage="zou_day3.ks"  target="*day3"  cond="f.zou_sinkou==2"  ]

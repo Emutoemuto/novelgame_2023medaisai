@@ -3,6 +3,7 @@
 *day4
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  fadein="true"  ]
 [bg  time="1000"  method="fadeInDown"  storage="家昼.PNG"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -42,5 +43,6 @@
 明日、ゆうこに聞いてみよう。[p]
 [_tb_end_text]
 
+[stopbgm  time="1000"  fadeout="true"  ]
 [jump  storage="zou_day5.ks"  target="*day5"  ]
 [s  ]

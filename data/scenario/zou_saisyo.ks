@@ -4,8 +4,15 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
-[chara_show  name="象"  time="1000"  wait="true"  storage="chara/10/zou.png"  width="497"  height="620"  left="452"  top="-35"  reflect="false"  ]
 [tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#
+象ルート[p]
+～少年と動物園の閉鎖～[p]
+[_tb_end_text]
+
+[playbgm  volume="100"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  ]
+[chara_show  name="象"  time="1000"  wait="true"  storage="chara/10/zou.png"  width="497"  height="620"  left="452"  top="-35"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #象
 「パオン」[p]
@@ -38,7 +45,7 @@
 #
 さゆりはスマートフォンをポケットからだして調べごとをしている。[p]
 その間に僕は象をじっと眺めてみる。 象はその立派な鼻で木から果物を取ろうとしている。[p]
-だが長さが足りず、それには届いてない[p]
+だが長さが足りず、それには届いてない。[p]
 象を手伝いますか？[p]
 [_tb_end_text]
 
@@ -76,6 +83,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [glink  color="black"  storage="zou_tyourou.ks"  size="20"  target="*tyourou"  text="長老に話を聞く"  x="367"  y="150"  width="152"  height="20"  _clickable_img=""  ]
 [glink  color="black"  storage="zou_library1.ks"  size="20"  text="図書館に行く"  target="*library"  x="370"  y="273"  width="144"  height="20"  _clickable_img=""  ]
 [glink  color="black"  storage="zou_sewa.ks"  size="20"  target="*sewa"  text="象の世話をする"  x="370"  y="391"  width="159"  height="20"  _clickable_img=""  ]

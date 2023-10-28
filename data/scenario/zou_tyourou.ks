@@ -3,6 +3,7 @@
 *tyourou
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="学校_kobayuu.ogg"  ]
 [bg  time="1000"  method="fadeInRight"  storage="山昼.jpg"  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  width="431"  height="608"  left="485"  top="56"  reflect="false"  ]
 [tb_show_message_window  ]
@@ -59,6 +60,7 @@
 明日、図書館にいってみよう。[p]
 [_tb_end_text]
 
+[stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_eval  exp="f.zou_sinkou+=1"  name="zou_sinkou"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [jump  storage="zou_day2.ks"  target="*day2"  cond="f.zou_sinkou==1"  ]

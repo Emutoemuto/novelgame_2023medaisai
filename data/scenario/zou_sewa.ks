@@ -3,8 +3,9 @@
 *sewa
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
-[chara_show  name="象"  time="1000"  wait="true"  storage="chara/10/zou.png"  width="466"  height="583"  left="476"  top="-51"  reflect="false"  ]
+[chara_show  name="象"  time="1000"  wait="true"  storage="chara/10/zou.png"  width="513"  height="643"  left="456"  top="6"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #川口雅
@@ -44,6 +45,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_eval  exp="f.zou_sinkou+=1"  name="zou_sinkou"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [jump  storage="zou_day2.ks"  target="*day2"  cond="f.zou_sinkou==1"  ]
 [jump  storage="zou_day3.ks"  target="*day3"  cond="f.zou_sinkou==2"  ]

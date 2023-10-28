@@ -27,9 +27,11 @@
 「ピヨー！」[p]
 [_tb_end_text]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_hide_message_window  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="家昼.PNG"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]

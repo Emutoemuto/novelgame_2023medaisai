@@ -1,5 +1,6 @@
 [_tb_system_call storage=system/_scene1.ks]
 
+[stopbgm  time="1000"  ]
 [bg  storage="kyousitu.png"  time="1000"  ]
 [tb_show_message_window  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="学校_kobayuu.ogg"  ]

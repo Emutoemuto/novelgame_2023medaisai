@@ -3,6 +3,7 @@
 *day2
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -39,6 +40,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [glink  color="black"  storage="zou_day2.ks"  size="20"  text="長老に話を聞く"  x="386"  y="200"  width=""  height=""  _clickable_img=""  target="*長老"  ]
 [glink  color="black"  storage="zou_day2.ks"  size="20"  text="図書館に行く"  x="384"  y="298"  width="144"  height="20"  _clickable_img=""  target="*図書館"  ]
 [glink  color="black"  storage="zou_day2.ks"  size="20"  text="象の世話をする"  x="390"  y="401"  width=""  height=""  _clickable_img=""  target="*世話"  ]

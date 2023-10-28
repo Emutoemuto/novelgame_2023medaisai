@@ -4,6 +4,7 @@
 [preload  storage="./data/fgimage/default/イラスト_刀.png"  ]
 [preload  storage="./data/fgimage/default/水平斬り.png"  ]
 [preload  storage="./data/bgimage/神社夜_.png"  ]
+[preload  storage="./data/fgimage/chara/8/ノベルゲー　マスター_キマリ.png"  ]
 [preload  storage="./data/fgimage/chara/8/ノベルゲー　マスター_叫び.png"  ]
 [preload  storage="./data/fgimage/default/斬撃エフェクト.png"  ]
 [preload  storage="./data/fgimage/chara/8/ノベルゲー　マスター_死にかけ.png"  ]

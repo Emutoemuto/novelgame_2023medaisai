@@ -67,7 +67,7 @@
 「おい、いい加減出て来いよ。あんた魔術師だろ」[p]
 [_tb_end_text]
 
-[chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/7/ノベルゲー　マスター_笑顔.png"  width="529"  height="749"  left="8"  top="92"  reflect="false"  ]
+[chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター_笑顔.png"  width="479"  height="677"  left="83"  top="78"  reflect="false"  ]
 [chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ_威嚇.png"  width="580"  height="821"  left="386"  top="-96"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ヒヨコ
@@ -84,7 +84,7 @@
 「私は、そのヒヨコのマスターでね。よければ飼い主に返してくれないかな？」[p]
 #唯他敬介
 「いやだね！」[p]
-「俺は依頼主重視の人間でね。ピョンが威嚇している奴相手に返す気はないよ」[p]
+「あんたは胡散臭い。ピョンが威嚇している奴相手に返す気はないよ」[p]
 #ヒヨコのマスター
 「そうか。最後の質問だ。君の名前は？」[p]
 #唯他敬介
@@ -110,7 +110,8 @@
 「なにっ⁉」[p]
 黒いピョンのようなものがマスターの影から数体湧き出てきた。しかも、口から炎を出してくる。[p]
 「くそっ！」[p]
-林に逃げ込んで、武器を探す。これしかない。[p]
+林に逃げ込んで、武器を探す。[p]
+昨夜の魔術鍛錬の残り物しかない。[p]
 
 [_tb_end_text]
 
@@ -128,10 +129,11 @@
 
 [tb_hide_message_window  ]
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/M4TLdp75trgH21r1697945250_1697945486.png"  width="586"  height="44"  x="174"  y="264"  _clickable_img=""  name="img_38"  ]
+[tb_image_show  time="1000"  storage="default/警棒.png"  width="425"  height="425"  x="265"  y="72"  _clickable_img=""  name="img_38"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #唯他敬介
+２つの棒を拡張式で刺突に特化した形へと錬成する。[p]
 「よし！これで何とか戦える！」[p]
 [_tb_end_text]
 
@@ -146,17 +148,19 @@
 
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/ビーム、刺突white.png"  width="122"  height="122"  x="551"  y="215"  _clickable_img=""  name="img_45"  ]
-[tb_image_show  time="1000"  storage="default/ビーム、刺突white.png"  width="97"  height="97"  x="245"  y="243"  _clickable_img=""  name="img_46"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="刺突音.mp3"  ]
+[tb_image_show  time="1000"  storage="default/ビーム、刺突white.png"  width="122"  height="122"  x="551"  y="215"  _clickable_img=""  name="img_46"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="刺突音.mp3"  ]
+[tb_image_show  time="1000"  storage="default/ビーム、刺突white.png"  width="97"  height="97"  x="245"  y="243"  _clickable_img=""  name="img_48"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 追って来たところに素早く2連撃をかます。[p]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="476"  height="476"  x="-61"  y="51"  _clickable_img=""  name="img_49"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="525"  height="525"  x="210"  y="26"  _clickable_img=""  name="img_50"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="495"  height="495"  x="525"  y="27"  _clickable_img=""  name="img_51"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="476"  height="476"  x="-61"  y="51"  _clickable_img=""  name="img_51"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="525"  height="525"  x="210"  y="26"  _clickable_img=""  name="img_52"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="495"  height="495"  x="525"  y="27"  _clickable_img=""  name="img_53"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 「くそっ！次々に出てくる！」[p]
@@ -165,7 +169,10 @@
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/雷ビームpng.png"  width="800"  height="800"  x="65"  y="-84"  _clickable_img=""  name="img_54"  ]
+[playbgm  volume="100"  time="1000"  loop="false"  storage="魔力弾.mp3"  ]
+[tb_image_show  time="1000"  storage="default/雷ビームpng.png"  width="800"  height="800"  x="65"  y="-84"  _clickable_img=""  name="img_57"  ]
+[stopbgm  time="1000"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 「ぐあっ！！」[p]
@@ -238,6 +245,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="斬撃音.mp3"  ]
 [tb_image_show  time="1000"  storage="default/斬撃エフェクト.png"  width="640"  height="640"  x="-45"  y="17"  _clickable_img=""  name="img_73"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_image_hide  time="1000"  ]
@@ -253,6 +261,7 @@
 （どうだ……ざまあ…見やがれ……）[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [wait  time="1000"  ]

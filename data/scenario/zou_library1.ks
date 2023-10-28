@@ -20,6 +20,7 @@
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="fadeInRight"  storage="図書館.png"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="music.ogg"  ]
 [tb_show_message_window  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  width="513"  height="726"  left="289"  top="12"  reflect="false"  ]
 [tb_start_text mode=1 ]
@@ -42,6 +43,7 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [glink  color="black"  storage="zou_library1.ks"  size="20"  text="象について調べる"  x="357"  y="151"  width="201"  height="20"  _clickable_img=""  target="*animal_kanren"  ]
 [glink  color="black"  storage="zou_tiikibook.ks"  size="20"  text="この街について調べる"  target="*tiikibook"  x="353"  y="246"  width=""  height=""  _clickable_img=""  ]
 [glink  color="black"  storage="zou_zoobook.ks"  size="20"  text="動物園について調べる"  target="*zoobook"  x="354"  y="344"  width=""  height=""  _clickable_img=""  ]

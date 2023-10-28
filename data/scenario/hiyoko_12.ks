@@ -14,7 +14,7 @@
 [_tb_end_text]
 
 [chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター.png"  width="435"  height="616"  left="300"  top="65"  reflect="false"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  ]
 [tb_start_text mode=1 ]
 #ヒヨコのマスター
 「やっと来たか。A-09を引き渡す決心はついたか？」[p]
@@ -43,7 +43,8 @@
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/イラスト_刀.png"  width="686"  height="484"  x="148"  y="20"  _clickable_img=""  name="img_17"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="atmosphere2.mp3"  ]
+[tb_image_show  time="1000"  storage="default/イラスト_刀.png"  width="686"  height="484"  x="148"  y="20"  _clickable_img=""  name="img_18"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 今、行ったのは日本刀への強化魔術。この日本刀はジイサンの部屋に隠してあったものだ。[p]
@@ -53,16 +54,17 @@
 
 [tb_image_hide  time="1000"  ]
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="429"  height="429"  x="573"  y="115"  _clickable_img=""  name="img_21"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="408"  height="408"  x="301"  y="136"  _clickable_img=""  name="img_22"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="408"  height="408"  x="0"  y="129"  _clickable_img=""  name="img_23"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="429"  height="429"  x="573"  y="115"  _clickable_img=""  name="img_22"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="408"  height="408"  x="301"  y="136"  _clickable_img=""  name="img_23"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="408"  height="408"  x="0"  y="129"  _clickable_img=""  name="img_24"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 「はあああ！！」[p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/水平斬り.png"  width="887"  height="891"  x="100"  y="-118"  _clickable_img=""  name="img_26"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="斬撃音.mp3"  ]
+[tb_image_show  time="1000"  storage="default/水平斬り.png"  width="887"  height="891"  x="100"  y="-118"  _clickable_img=""  name="img_28"  ]
 [tb_image_hide  time="1000"  ]
 [chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター_イライラ.png"  width="413"  height="585"  left="316"  top="56"  reflect="false"  ]
 [tb_start_text mode=1 ]
@@ -73,11 +75,11 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="429"  height="429"  x="115"  y="-24"  _clickable_img=""  name="img_32"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="408"  height="408"  x="439"  y="-23"  _clickable_img=""  name="img_33"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="428"  height="428"  x="28"  y="222"  _clickable_img=""  name="img_34"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="476"  height="476"  x="277"  y="215"  _clickable_img=""  name="img_35"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="403"  height="403"  x="603"  y="221"  _clickable_img=""  name="img_36"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="429"  height="429"  x="115"  y="-24"  _clickable_img=""  name="img_34"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="408"  height="408"  x="439"  y="-23"  _clickable_img=""  name="img_35"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="428"  height="428"  x="28"  y="222"  _clickable_img=""  name="img_36"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="476"  height="476"  x="277"  y="215"  _clickable_img=""  name="img_37"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="403"  height="403"  x="603"  y="221"  _clickable_img=""  name="img_38"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #唯他敬介
@@ -97,7 +99,7 @@
 そこからはヒットアンドアウェイに徹していたが、それももう限界だ。[p]
 [_tb_end_text]
 
-[chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター_笑顔.png"  width="449"  height="638"  left="278"  top="63"  reflect="false"  ]
+[chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター_笑顔.png"  width="520"  height="739"  left="236"  top="45"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ヒヨコのマスター
 「大口をたたいた割にはこの程度か。もうお前に用はない」[p]
@@ -122,7 +124,7 @@
 「あんたは理想に囚われて錬金術の基本法則である等価交換すら忘れちまったんだ」[p]
 [_tb_end_text]
 
-[chara_mod  name="ヒヨコのマスター"  time="600"  cross="true"  storage="chara/8/ノベルゲー　マスター_叫び.png"  ]
+[chara_mod  name="ヒヨコのマスター"  time="600"  cross="true"  storage="chara/8/ノベルゲー　マスター_キマリ.png"  ]
 [tb_start_text mode=1 ]
 #ヒヨコのマスター
 「やめろ！それ以上言うな！」[p]
@@ -134,6 +136,10 @@
 [tb_start_text mode=1 ]
 #唯他敬介
 「何もかも釣り合ってねーんだよ！！」[p]
+[_tb_end_text]
+
+[chara_mod  name="ヒヨコのマスター"  time="600"  cross="true"  storage="chara/8/ノベルゲー　マスター_叫び.png"  ]
+[tb_start_text mode=1 ]
 #ヒヨコのマスター
 「黙れ～！！」[p]
 #唯他敬介
@@ -157,20 +163,22 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="403"  height="403"  x="173"  y="1"  _clickable_img=""  name="img_58"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="406"  height="406"  x="417"  y="3"  _clickable_img=""  name="img_59"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="452"  height="452"  x="138"  y="177"  _clickable_img=""  name="img_60"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="501"  height="501"  x="412"  y="153"  _clickable_img=""  name="img_61"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="403"  height="403"  x="173"  y="1"  _clickable_img=""  name="img_62"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="406"  height="406"  x="417"  y="3"  _clickable_img=""  name="img_63"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="452"  height="452"  x="138"  y="177"  _clickable_img=""  name="img_64"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="501"  height="501"  x="412"  y="153"  _clickable_img=""  name="img_65"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 「決着をつける！」[p]
 「うおおおおおおおおお!!!」[p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/斬撃エフェクト.png"  width="1072"  height="1072"  x="-34"  y="-257"  _clickable_img=""  name="img_63"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="斬撃音.mp3"  ]
+[tb_image_show  time="1000"  storage="default/斬撃エフェクト.png"  width="1072"  height="1072"  x="-34"  y="-257"  _clickable_img=""  name="img_68"  ]
 [tb_image_hide  time="1000"  ]
 [chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター_叫び.png"  width="479"  height="677"  left="283"  top="34"  reflect="false"  ]
-[tb_image_show  time="1000"  storage="default/斬撃エフェクト.png"  width="882"  height="882"  x="46"  y="-142"  _clickable_img=""  name="img_66"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="刺突音.mp3"  ]
+[tb_image_show  time="1000"  storage="default/斬撃エフェクト.png"  width="882"  height="882"  x="46"  y="-142"  _clickable_img=""  name="img_72"  ]
 [tb_image_hide  time="1000"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [chara_mod  name="ヒヨコのマスター"  time="600"  cross="true"  storage="chara/8/ノベルゲー　マスター_死にかけ.png"  ]
@@ -189,11 +197,17 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="爆発.mp3"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 爆発音。その後、熱が一気に攻めてくる。[p]
 「あっつ！！」[p]
 林の陰に隠れてやり過ごす。今回はピョンが儀式に巻き込まれずに済んだため、爆発も小規模で終わったようだ。[p]
+[_tb_end_text]
+
+[playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
+[tb_start_text mode=1 ]
+#唯他敬介
 「はあ……何とか生き残ったか」[p]
 相手の爆発という苦い結果にはなったが、とにかく死なずに済んだ。[p]
 [_tb_end_text]
@@ -233,11 +247,13 @@
 きっとこれからもこんな事の繰り返しなのだろう。そうすると、また傷だらけのボロボロになるのだろうか。[p]
 それでも大丈夫。[p]
 帰り道は星の光が導いてくれるはずだ。[p]
+俺たちの家まで、まっすぐに。[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
 [l  ]
+[stopbgm  time="1000"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [jump  storage="hiyoko_13.ks"  target="*start"  ]
 [s  ]

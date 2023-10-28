@@ -4,6 +4,8 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #川口雅
 「今日はどうする？」[p]
@@ -21,6 +23,7 @@
 その時だった。[p]
 [_tb_end_text]
 
+[stopbgm  time="1000"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [chara_show  name="HY1349"  time="1000"  wait="true"  storage="chara/11/タイムパトロール.png"  width="372"  height="978"  left="315"  top="24"  reflect="false"  ]
 [tb_start_text mode=1 ]

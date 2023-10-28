@@ -1,10 +1,11 @@
 [_tb_system_call storage=system/_cat_ura_1.ks]
 
 [bg  time="1000"  method="crossfade"  storage="家昼.PNG"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="家BGM1.1.mp3"  loop="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達.png"  width="760"  height="1030"  left="346"  top="34"  reflect="false"  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_通常.png"  width="680"  height="680"  left="-89"  top="-15"  reflect="false"  ]
 [wait  time="2000"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 程なくして、俺たちはねこを連れて帰宅した。[p]
 もちろん、ゆうこも一緒である。[p]
