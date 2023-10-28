@@ -105,6 +105,11 @@
 ゆうこ はねこを追うように小屋の中に滑り入っていった。[p]
 ゆうこ の肩越しに小屋の中を覗き見る。[p]
 すると、見慣れないものが一つ、[r]小屋の最奥を占拠しているのが見えた。[p]
+
+[_tb_end_text]
+
+[tb_image_show  time="1000"  storage="default/ツリー開.png"  width="394"  height="394"  x="244"  y="25"  _clickable_img=""  ]
+[tb_start_text mode=1 ]
 「これは、クリスマスツリー？」[p]
 針葉樹特有の鋭い葉に、[r]三角錐のような見た目。[r]明らかにモミの木だ。[p]
 しかし、今は6月。[r]クリスマスから最も離れた季節。[p]
@@ -117,6 +122,7 @@
 
 [_tb_end_text]
 
+[tb_image_hide  time="1000"  ]
 [tb_start_text mode=1 ]
 「なんだよこれ」[p]
 #ゆうこ
