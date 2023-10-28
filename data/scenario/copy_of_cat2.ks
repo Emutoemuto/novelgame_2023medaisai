@@ -72,5 +72,5 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [stopbgm  time="1000"  ]
-[jump  storage="cat_ura_1.ks"  target=""  ]
+[jump  storage="copy_of_cat_ura_1.ks"  target=""  ]
 [s  ]

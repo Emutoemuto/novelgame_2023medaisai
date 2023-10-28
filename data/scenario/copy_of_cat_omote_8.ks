@@ -152,5 +152,5 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[glink  color="black"  storage="copy_of_cat2.ks"  size="20"  x="306"  y="289"  width=""  height=""  text="裏ルートに行きますか？"  _clickable_img=""  target="*common１"  ]
+[glink  color="black"  storage="copy_of_cat2.ks"  size="20"  x="306"  y="289"  width=""  height=""  text="裏ルートに行きますか？"  _clickable_img=""  target="*neko_start"  ]
 [s  ]

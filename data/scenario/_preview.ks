@@ -1,26 +1,20 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  method="crossfade"  storage="家夜.PNG"  ]
+[bg  time="10"  method="crossfade"  storage="urayama.png"  ]
 [tb_show_message_window] 
-[chara_mod  name="ねこ"  time="10"  cross="true"  storage="chara/2/閉猫_通常.png"  ]
-[chara_show  name="ねこ"  time="10"  wait="true"  storage="chara/2/閉猫_閉眼.png"  width="680"  height="680"  ]
+[chara_mod  name="ゆうこ"  time="10"  cross="true"  storage="chara/3/無題14_20231009135335_(1).png"  ]
+[chara_show  name="ゆうこ"  time="10"  wait="true"  storage="chara/3/閉猫_通常_(1).png"  width="680"  height="680"  left="146"  top="-7"  reflect="false"  ]
 [mask_off time=10]
 [tb_start_text mode=1 ]
+#ゆうこ
+「見えてきた」[p]
 #
-程なくして、荷支度を終えた俺はバッグの中にねこを突っ込んだ。[p]
-最初は「もっと丁重に扱ってよ！　レディに失礼でしょ」[r]とかなんとか宣っていたが、[p]
-中は薄暗く心地が良かったようで、[r]いまは満足そうに喉を鳴らしている。[p]
-曰く、ハンモックのようだと。[p]
+ゆうこ の歩調が一瞬だけ乱れ、[r]鼻先がくいっと上がるのが見えた。[p]
+その延長線上を視線でなぞる。[p]
+といっても、そこに何があるのかなんて見なくても分かる。[p]
+俺と ゆうこ の思い出の場所。[p]
+秘密基地。[p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
-#
-「出発しますよ。お嬢様」[p]
-#ねこ
-「うむ。苦しゅうない」[p]
-くぐもった声は、小さな鈴のようにからりとしていた。[p]
-[_tb_end_text]
-
-[chara_hide_all  time="1000"  wait="true"  ]
-[jump  storage="cat_ura_3.ks"  target=""  ]
+[jump  storage="cat_ura_8.ks"  target=""  ]
