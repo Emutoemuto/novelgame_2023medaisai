@@ -25,13 +25,18 @@
 あいつは俺のもう１つの可能性だったのだと思う。でも、ゆうこやピョンと一緒ならきっと……[p]
 「少しスピード上げるぞ」[p]
 ひび割れたアスファルトの道を１台の自転車と１匹が駆けていく。[p]
-#
-ヒヨコルートend[p]
 [_tb_end_text]
 
+[font  size="39"  color="0xd9d318"  ]
+[tb_start_text mode=1 ]
+#
+ヒヨコルート ～不等価交換～ END[p]
+[_tb_end_text]
+
+[resetfont  ]
 [tb_hide_message_window  ]
 [movie  volume="100"  storage="青空エンドロール.mp4"  skip="true"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[bg  time="1000"  method="crossfade"  storage="背景②.png"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [jump  storage="title_screen.ks"  target=""  ]
 [s  ]

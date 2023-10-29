@@ -3,7 +3,7 @@
 *tyourou
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="学校_kobayuu.ogg"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="学校_kobayuu.ogg"  fadein="true"  ]
 [bg  time="1000"  method="fadeInRight"  storage="山昼.jpg"  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  width="431"  height="608"  left="485"  top="56"  reflect="false"  ]
 [tb_show_message_window  ]

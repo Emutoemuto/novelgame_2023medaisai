@@ -4,10 +4,13 @@
 
 [tb_clear_images]
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  fadein="false"  ]
-[bg  storage="背景②.png"  ]
-[tb_keyconfig  flag="0"  ]
+[tb_image_hide  time="1000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
+[bg  storage="背景②.png"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  fadein="false"  ]
+[tb_keyconfig  flag="0"  ]
 *title
 
 [glink  color="black"  text="はじめから"  x="723"  y="440"  size="24"  target="*start"  width=""  height=""  _clickable_img=""  ]

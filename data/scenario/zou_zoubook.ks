@@ -3,7 +3,7 @@
 *zoubook
 
 [bg  time="1000"  method="crossfade"  storage="図書館.png"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="music.ogg"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="music.ogg"  fadein="true"  ]
 [tb_show_message_window  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  width="388"  height="546"  left="305"  top="44"  reflect="false"  ]
 [tb_start_text mode=1 ]

@@ -3,7 +3,7 @@
 *trueend
 
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  fadein="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #川口雅
@@ -70,12 +70,10 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [bg  time="1000"  method="crossfade"  storage="神社夕方.PNG"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  fadein="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #川口雅
@@ -91,8 +89,16 @@
 冬の空はどこまでも澄んでいる。どうかこの空が少しでも長く続きますように。[p]
 [_tb_end_text]
 
-[stopbgm  time="1000"  fadeout="true"  ]
+[font  size="39"  color="0xf56218"  ]
+[tb_start_text mode=1 ]
+#
+象ルート ～少年と動物園の閉鎖～ END③[p]
+[_tb_end_text]
+
+[resetfont  ]
 [tb_hide_message_window  ]
+[movie  volume="100"  storage="背景神社エンドロール.mp4"  skip="true"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #

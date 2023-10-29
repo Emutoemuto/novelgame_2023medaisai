@@ -3,7 +3,7 @@
 *day2
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  fadein="true"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]

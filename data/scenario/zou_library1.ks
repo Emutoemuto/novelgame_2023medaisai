@@ -20,7 +20,7 @@
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="fadeInRight"  storage="図書館.png"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="music.ogg"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="music.ogg"  fadein="true"  ]
 [tb_show_message_window  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  width="513"  height="726"  left="289"  top="12"  reflect="false"  ]
 [tb_start_text mode=1 ]

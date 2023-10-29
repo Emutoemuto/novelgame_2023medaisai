@@ -2,7 +2,7 @@
 
 *tiikibook
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="music.ogg"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="music.ogg"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="図書館.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]

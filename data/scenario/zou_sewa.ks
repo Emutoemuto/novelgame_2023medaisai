@@ -3,7 +3,7 @@
 *sewa
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
 [chara_show  name="象"  time="1000"  wait="true"  storage="chara/10/zou.png"  width="513"  height="643"  left="456"  top="6"  reflect="false"  ]
 [tb_show_message_window  ]

@@ -116,7 +116,7 @@
 その奥には、ツリーが屹立していた。[r]ベツレヘム占いのツリー。[p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/ツリー閉2.png"  width="619"  height="344"  x="141"  y="28"  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/ツリー閉2.png"  width="619"  height="344"  x="141"  y="28"  _clickable_img=""  name="img_16"  ]
 [wait  time="2000"  ]
 [tb_start_text mode=1 ]
 そして、光っていたのはその天辺に飾られていた白い花だった。[p]
@@ -150,4 +150,5 @@
 [_tb_end_text]
 
 [resetfont  ]
+[movie  volume="100"  storage="通常エンドロール.mp4"  skip="true"  ]
 [s  ]

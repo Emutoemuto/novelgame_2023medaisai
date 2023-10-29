@@ -2,7 +2,7 @@
 
 *zoobook
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="ミステリーBGM1.4.mp3"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="ミステリーBGM1.4.mp3"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="図書館.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]

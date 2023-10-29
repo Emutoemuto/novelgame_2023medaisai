@@ -3,7 +3,7 @@
 *day3
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  fadein="true"  storage="裏山BGM（ツチノコ）.ogg"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  fadein="true"  storage="裏山BGM（ツチノコ）.ogg"  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  width="504"  height="711"  left="244"  top="52"  reflect="false"  ]
 [tb_show_message_window  ]

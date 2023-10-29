@@ -11,7 +11,7 @@
 ～少年と動物園の閉鎖～[p]
 [_tb_end_text]
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  fadein="true"  ]
 [chara_show  name="象"  time="1000"  wait="true"  storage="chara/10/zou.png"  width="497"  height="620"  left="452"  top="-35"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #象

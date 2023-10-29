@@ -3,7 +3,7 @@
 *undefined
 
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  fadein="true"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  fadein="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #川口雅
@@ -67,7 +67,7 @@
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [bg  time="1000"  method="crossfade"  storage="道路昼.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  fadein="true"  storage="学校_kobayuu.ogg"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  fadein="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #川口雅
@@ -91,8 +91,16 @@
 何か忘れている。そんな感覚を持ちながら、追い風に背中を押されて動物園に向かう。[p]
 [_tb_end_text]
 
-[stopbgm  time="1000"  fadeout="true"  ]
+[font  size="39"  color="0x6299d9"  ]
+[tb_start_text mode=1 ]
+#
+象ルート ～少年と動物園の閉鎖～ END①[p]
+[_tb_end_text]
+
+[resetfont  ]
+[stopbgm  time="1000"  ]
 [tb_hide_message_window  ]
+[movie  volume="100"  storage="通常エンドロール.mp4"  skip="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #

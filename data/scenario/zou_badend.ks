@@ -29,6 +29,10 @@
 [tb_start_text mode=1 ]
 #川口雅
 それから少し後のことだ。家で夕飯を食べながらテレビを見てると……[p]
+[_tb_end_text]
+
+[playbgm  volume="60"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  fadein="true"  ]
+[tb_start_text mode=1 ]
 #ニュースキャスター
 「次のニュースです。昨夜遅く、竹峰山の麓で謎の生物を発見したという通報があり、警察は地元の猟友会と共にその行方を探っています」[p]
 「通報した方にお話しを伺ったところ体長は象と見間違えるほど大きく、近づいてきたところを猟友会に撃たれて逃げていったということです」[p]
@@ -46,8 +50,14 @@
 
 [_tb_end_text]
 
-[tb_hide_message_window  ]
-[tb_show_message_window  ]
+[font  size="39"  color="0x806f6f"  ]
+[tb_start_text mode=1 ]
+#
+象ルート ～少年と動物園の閉鎖～ END②[p]
+[_tb_end_text]
+
+[resetfont  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #
 エンディングは３つあります。１日目に戻りますか？[p]

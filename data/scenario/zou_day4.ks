@@ -3,7 +3,7 @@
 *day4
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  fadein="true"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  fadein="true"  ]
 [bg  time="1000"  method="fadeInDown"  storage="家昼.PNG"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]

@@ -420,6 +420,7 @@
 [_tb_end_text]
 
 [resetfont  ]
+[movie  volume="100"  skip="true"  storage="通常エンドロール.mp4"  ]
 [tb_start_text mode=1 ]
 注：まだ解明されていない謎が残されています。現在は裏ルートを攻略しました。物語の真相を知るには表ルートを探索することを強く推奨します。[p]
 [_tb_end_text]
