@@ -34,7 +34,7 @@
 
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/ツリー開.png"  width="350"  height="350"  x="265"  y="21"  _clickable_img=""  name="img_9"  ]
+[tb_image_show  time="1000"  storage="default/ツリー開.png"  width="350"  height="350"  x="265"  y="21"  _clickable_img=""  name="img_10"  ]
 [tb_start_text mode=1 ]
 それは、紛れもないクリスマスツリーだった。[p]
 俺の背丈ほどの大きさのそれ。[r]あと少しで天井に届きそうなほどだ。[p]
@@ -292,7 +292,7 @@
 何事かと思い、視線を奥に送る。[p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/ツリー閉2.png"  width="460"  height="256"  x="209"  y="89"  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/ツリー閉2.png"  width="460"  height="256"  x="209"  y="89"  _clickable_img=""  name="img_42"  ]
 [tb_start_text mode=1 ]
 その奥には、ツリーが屹立していた。[r]ベツレヘム占いのツリー。[p]
 そして、光っていたのはその天辺に飾られていた白い花だった。[p]
@@ -420,11 +420,9 @@
 [_tb_end_text]
 
 [resetfont  ]
-[movie  volume="100"  skip="true"  storage="通常エンドロール.mp4"  ]
-[tb_start_text mode=1 ]
-注：まだ解明されていない謎が残されています。現在は裏ルートを攻略しました。物語の真相を知るには表ルートを探索することを強く推奨します。[p]
-[_tb_end_text]
-
 [tb_hide_message_window  ]
-[glink  color="black"  storage="copy_of_cat1.ks"  size="20"  text="表ルートに行きますか？"  target="*neko_start"  x="295"  y="293"  width=""  height=""  _clickable_img=""  ]
+[bg  time="1000"  method="crossfade"  storage="1701.png"  ]
+[movie  volume="100"  skip="true"  storage="通常エンドロール.mp4"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[jump  storage="title_screen.ks"  target=""  ]
 [s  ]

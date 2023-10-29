@@ -5,12 +5,14 @@
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
 [tb_show_message_window  ]
+[font  size="39"  color="0xf56218"  ]
 [tb_start_text mode=1 ]
 #
 象ルート[p]
 ～少年と動物園の閉鎖～[p]
 [_tb_end_text]
 
+[resetfont  ]
 [playbgm  volume="60"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  fadein="true"  ]
 [chara_show  name="象"  time="1000"  wait="true"  storage="chara/10/zou.png"  width="497"  height="620"  left="452"  top="-35"  reflect="false"  ]
 [tb_start_text mode=1 ]

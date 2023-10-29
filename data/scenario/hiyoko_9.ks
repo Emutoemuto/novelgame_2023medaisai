@@ -94,7 +94,7 @@
 [_tb_end_text]
 
 [chara_mod  name="ヒヨコのマスター"  time="600"  cross="true"  storage="chara/8/ノベルゲー　マスター_キマリ.png"  ]
-[playbgm  volume="60"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  fadein="true"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #ヒヨコのマスター
 「ハハッ、唯他か！」[p]
@@ -174,7 +174,7 @@
 [playbgm  volume="100"  time="1000"  loop="false"  storage="魔力弾.mp3"  ]
 [tb_image_show  time="1000"  storage="default/雷ビームpng.png"  width="800"  height="800"  x="65"  y="-84"  _clickable_img=""  name="img_57"  ]
 [stopbgm  time="1000"  ]
-[playbgm  volume="60"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 「ぐあっ！！」[p]
@@ -232,7 +232,7 @@
 [tb_hide_message_window  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_show_message_window  ]
-[playbgm  volume="60"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  fadein="true"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 その時、不思議なことが起こった。俺とピョンは１つになり、魔力が湧き上がってきた。[p]

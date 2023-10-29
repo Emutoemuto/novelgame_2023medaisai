@@ -5,12 +5,14 @@
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
 [chara_hide  name="ゆうこ"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_show_message_window  ]
+[font  size="39"  color="0xd9d318"  ]
 [tb_start_text mode=1 ]
 #
 ひよこルート[p]
 ～不等価交換～[p]
 [_tb_end_text]
 
+[resetfont  ]
 [chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ_威嚇.png"  width="413"  height="586"  left="279"  top="38"  reflect="false"  ]
 [playbgm  volume="60"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]

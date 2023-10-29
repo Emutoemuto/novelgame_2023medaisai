@@ -34,7 +34,7 @@
 [_tb_end_text]
 
 [wait  time="3000"  ]
-[glink  color="black"  storage="cat1.ks"  size="20"  x="-7"  y="324"  width=""  height=""  text="俺の家で保護"  _clickable_img=""  target="*家"  ]
+[glink  color="black"  storage="copy_of_cat2.ks"  size="20"  x="-7"  y="324"  width=""  height=""  text="俺の家で保護"  _clickable_img=""  target="*家"  ]
 [s  ]
 *家
 

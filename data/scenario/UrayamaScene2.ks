@@ -60,7 +60,10 @@
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
+*choise
+
 [tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
 [glink  color="black"  storage="zou_saisyo.ks"  size="20"  text="象だねー"  target="*zou"  x="367"  y="296"  width="127"  height="20"  _clickable_img=""  ]
 [glink  color="black"  storage="hiyoko_1.ks"  size="20"  text="ヒヨコかな？"  x="367"  y="191"  width=""  height=""  _clickable_img=""  target="*hiyoko_start"  ]
 [glink  color="black"  storage="UrayamaScene2.ks"  size="20"  text="猫かな"  x="372"  y="404"  width="129"  height="20"  _clickable_img=""  target="*猫ルート"  ]

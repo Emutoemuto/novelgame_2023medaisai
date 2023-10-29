@@ -150,5 +150,10 @@
 [_tb_end_text]
 
 [resetfont  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="1701.png"  ]
 [movie  volume="100"  storage="通常エンドロール.mp4"  skip="true"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[jump  storage="title_screen.ks"  target=""  ]
 [s  ]

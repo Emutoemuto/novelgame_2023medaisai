@@ -6,4 +6,5 @@
 [preload  storage="./data/fgimage/chara/3/開猫_閉眼_(1).png"  ]
 [preload  storage="./data/fgimage/chara/3/開猫_怪訝_(1).png"  ]
 [preload  storage="./data/fgimage/chara/3/開猫_通常_(2).png"  ]
+[preload  storage="./data/bgimage/1701.png"  ]
 [return]

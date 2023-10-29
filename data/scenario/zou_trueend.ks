@@ -102,11 +102,12 @@
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
-エンディングは３つあります。１日目に戻りますか？[p]
+エンディングは３つあります。１日目に戻りますか、動物を選び直しますか？[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[glink  color="black"  storage="zou_trueend.ks"  size="20"  target="*again"  text="1日目に戻る"  x="375"  y="239"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="zou_trueend.ks"  size="20"  target="*again"  text="1日目に戻る"  x="356"  y="242"  width="138"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="UrayamaScene2.ks"  size="20"  text="動物を選び直す"  x="355"  y="332"  width=""  height=""  _clickable_img=""  target="*choise"  ]
 [s  ]
 *again
 

@@ -31,7 +31,7 @@
 [_tb_end_text]
 
 [wait  time="3000"  ]
-[glink  color="black"  storage="cat1.ks"  size="20"  x="-9"  y="257"  width=""  height=""  text="昔使っていた秘密基地で保護"  _clickable_img=""  target="*秘密基地"  ]
+[glink  color="black"  storage="copy_of_cat1.ks"  size="20"  x="-9"  y="257"  width=""  height=""  text="昔使っていた秘密基地で保護"  _clickable_img=""  target="*秘密基地"  ]
 [s  ]
 *秘密基地
 

@@ -31,7 +31,7 @@
 それから少し後のことだ。家で夕飯を食べながらテレビを見てると……[p]
 [_tb_end_text]
 
-[playbgm  volume="60"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  fadein="true"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #ニュースキャスター
 「次のニュースです。昨夜遅く、竹峰山の麓で謎の生物を発見したという通報があり、警察は地元の猟友会と共にその行方を探っています」[p]
@@ -60,11 +60,12 @@
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #
-エンディングは３つあります。１日目に戻りますか？[p]
+エンディングは３つあります。１日目に戻りますか、動物を選び直しますか？[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[glink  color="black"  storage="zou_badend.ks"  size="20"  target="*again"  text="１日目に戻る"  x="357"  y="247"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="zou_badend.ks"  size="20"  target="*again"  text="１日目に戻る"  x="346"  y="217"  width="135"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="UrayamaScene2.ks"  size="20"  text="動物を選び直す"  target="*choise"  x="344"  y="353"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *again
 

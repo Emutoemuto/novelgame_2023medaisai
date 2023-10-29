@@ -14,7 +14,7 @@
 [_tb_end_text]
 
 [chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター.png"  width="435"  height="616"  left="300"  top="65"  reflect="false"  ]
-[playbgm  volume="60"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  fadein="true"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #ヒヨコのマスター
 「やっと来たか。A-09を引き渡す決心はついたか？」[p]
@@ -43,7 +43,7 @@
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/イラスト_刀.png"  width="686"  height="484"  x="148"  y="20"  _clickable_img=""  name="img_18"  ]
+[tb_image_show  time="1000"  storage="default/イラスト_刀.png"  width="686"  height="484"  x="148"  y="20"  _clickable_img=""  name="img_17"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 今、行ったのは日本刀への強化魔術。この日本刀はジイサンの部屋に隠してあったものだ。[p]
@@ -53,9 +53,9 @@
 
 [tb_image_hide  time="1000"  ]
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="429"  height="429"  x="573"  y="115"  _clickable_img=""  name="img_22"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="408"  height="408"  x="301"  y="136"  _clickable_img=""  name="img_23"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="408"  height="408"  x="0"  y="129"  _clickable_img=""  name="img_24"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="429"  height="429"  x="573"  y="115"  _clickable_img=""  name="img_21"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="408"  height="408"  x="301"  y="136"  _clickable_img=""  name="img_22"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="408"  height="408"  x="0"  y="129"  _clickable_img=""  name="img_23"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #唯他敬介
@@ -63,7 +63,7 @@
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="斬撃音.mp3"  ]
-[tb_image_show  time="1000"  storage="default/水平斬り.png"  width="887"  height="891"  x="100"  y="-118"  _clickable_img=""  name="img_28"  ]
+[tb_image_show  time="1000"  storage="default/水平斬り.png"  width="887"  height="891"  x="100"  y="-118"  _clickable_img=""  name="img_27"  ]
 [tb_image_hide  time="1000"  ]
 [chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター_イライラ.png"  width="413"  height="585"  left="316"  top="56"  reflect="false"  ]
 [tb_start_text mode=1 ]
@@ -74,11 +74,11 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="429"  height="429"  x="115"  y="-24"  _clickable_img=""  name="img_34"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="408"  height="408"  x="439"  y="-23"  _clickable_img=""  name="img_35"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="428"  height="428"  x="28"  y="222"  _clickable_img=""  name="img_36"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="476"  height="476"  x="277"  y="215"  _clickable_img=""  name="img_37"  ]
-[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="403"  height="403"  x="603"  y="221"  _clickable_img=""  name="img_38"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="429"  height="429"  x="115"  y="-24"  _clickable_img=""  name="img_33"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="408"  height="408"  x="439"  y="-23"  _clickable_img=""  name="img_34"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="428"  height="428"  x="28"  y="222"  _clickable_img=""  name="img_35"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="476"  height="476"  x="277"  y="215"  _clickable_img=""  name="img_36"  ]
+[tb_image_show  time="1000"  storage="default/黒ヒヨコ_1(暗い).png"  width="403"  height="403"  x="603"  y="221"  _clickable_img=""  name="img_37"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #唯他敬介
@@ -131,7 +131,7 @@
 「分からないなら、もっとわかりやすく言ってやるよ」[p]
 [_tb_end_text]
 
-[playbgm  volume="60"  time="1000"  loop="true"  storage="ヒヨコルート逆転BGM_kobayuu(完成版)_(1).mp3"  fadein="true"  ]
+[playbgm  volume="40"  time="1000"  loop="true"  storage="ヒヨコルート逆転BGM_kobayuu(完成版)_(1).mp3"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 「何もかも釣り合ってねーんだよ！！」[p]

@@ -47,7 +47,7 @@
 「そうなんですか。でも、なんで象はこの時代を選んだんでしょう 」[p]
 #HY1349
 「実は詳細はわからない。だが、きっと何かの約束を誰かとしたんだろう」 [p]
-「タイムリープする場合、そういうことが多い。」[p]
+「タイムリープする場合、そういうことが多い」[p]
 #川口雅
 「約束……。きっと象だけじゃなく、誰かが強く望んだからこそ、象はこの時代に来たんですね 」[p]
 #HY1349
@@ -100,15 +100,17 @@
 [resetfont  ]
 [stopbgm  time="1000"  ]
 [tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="1701.png"  ]
 [movie  volume="100"  storage="通常エンドロール.mp4"  skip="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
-エンディングは全部で３つあります。1日目に戻りますか？[p]
+エンディングは全部で３つあります。1日目に戻りますか、動物を選び直しますか？[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[glink  color="black"  storage="zou_happyend.ks"  size="20"  target="*again"  text="１日目に戻る"  x="348"  y="243"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="zou_happyend.ks"  size="20"  target="*again"  text="１日目に戻る"  x="343"  y="249"  width="141"  height="22"  _clickable_img=""  ]
+[glink  color="black"  storage="UrayamaScene2.ks"  size="20"  text="動物を選び直す"  target="*choise"  x="339"  y="352"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *again
 
