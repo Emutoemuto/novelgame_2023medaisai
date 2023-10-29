@@ -4,7 +4,7 @@
 [mask_off  time="1000"  effect="fadeOut"  ]
 [bg  time="1000"  method="crossfade"  storage="家夜.PNG"  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_閉眼.png"  width="680"  height="680"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="家BGM1.1.mp3"  loop="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
 [tb_start_text mode=1 ]
 #
 ねこっていうのはやはりよく眠るらしい。[p]
@@ -91,4 +91,5 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[stopbgm  time="1000"  ]
 [jump  storage="cat_ura_3.ks"  target=""  ]

@@ -53,7 +53,6 @@
 
 [_tb_end_text]
 
-[stopbgm  time="1000"  ]
 [delay  speed="100"  ]
 [tb_start_text mode=1 ]
 #ねこ

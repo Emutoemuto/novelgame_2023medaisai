@@ -307,7 +307,6 @@ CMの音ではない。[r]なぜなら、その投げかけは女性の声だっ
 そのとき、[r]真横にいた化けねこがぽつんと口を開いた。[p]
 [_tb_end_text]
 
-[stopse  time="1000"  buf="0"  ]
 [tb_start_text mode=1 ]
 #ねこ
 「こ、あんたも、[r]このおまじないやっちゃったんでしょ？」[p]
@@ -505,7 +504,6 @@ CMの音ではない。[r]なぜなら、その投げかけは女性の声だっ
 確か、ねこはこう言ったはずだ。[p]
 [_tb_end_text]
 
-[stopse  time="1000"  buf="0"  ]
 [stopbgm  time="1000"  ]
 [delay  speed="70"  ]
 [tb_start_text mode=1 ]
