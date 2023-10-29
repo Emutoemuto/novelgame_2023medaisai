@@ -132,7 +132,7 @@
 「分からないなら、もっとわかりやすく言ってやるよ」[p]
 [_tb_end_text]
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="ヒヨコルート逆転BGM_kobayuu(完成版)_(1).mp3"  fadein="true"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="ヒヨコルート逆転BGM_kobayuu(完成版)_(1).mp3"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 「何もかも釣り合ってねーんだよ！！」[p]
@@ -205,7 +205,7 @@
 林の陰に隠れてやり過ごす。今回はピョンが儀式に巻き込まれずに済んだため、爆発も小規模で終わったようだ。[p]
 [_tb_end_text]
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 「はあ……何とか生き残ったか」[p]
