@@ -23,6 +23,7 @@
 俺は戸に手を掛け、横にスライドさせる。[p]
 [_tb_end_text]
 
+[playse  volume="100"  time="1000"  buf="0"  storage="iron_door2_O.mp3"  ]
 [quake  time="200"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #
