@@ -96,4 +96,5 @@
 
 [chara_mod  name="ねこ"  time="600"  cross="true"  storage="chara/2/閉猫_通常.png"  ]
 [wait  time="2000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="cat_ura_7.ks"  target=""  ]

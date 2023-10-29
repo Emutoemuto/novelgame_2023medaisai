@@ -5,6 +5,7 @@
 [tb_show_message_window  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_通常.png"  width="680"  height="680"  left="154"  top="-12"  reflect="false"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="autumn_insects1_(1).mp3"  loop="true"  ]
 [tb_start_text mode=1 ]
 #
 家を出て少しすると、[r]山間を拓いた小道につながる。[p]
@@ -140,6 +141,7 @@
 ここで念のため売っているか、[r]確認することも悪くないだろう。[p]
 [_tb_end_text]
 
+[stopse  time="1000"  buf="0"  ]
 [quake  time="300"  count="1"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #
