@@ -3,7 +3,7 @@
 *start
 
 [bg  time="1000"  method="fadeIn"  storage="urayama.png"  cross="false"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  fadein="true"  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達.png"  width="500"  height="710"  left="63"  top="125"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
@@ -50,6 +50,7 @@
 そこには、明らかに植物でないものが見え隠れしていた。気になり走り出す。[p]
 [_tb_end_text]
 
+[playse  volume="100"  time="1000"  buf="0"  storage="dashing.mp3"  ]
 [chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_怒り顔.png"  ]
 [tb_start_text mode=1 ]
 #ゆうこ

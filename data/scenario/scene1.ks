@@ -3,7 +3,7 @@
 [stopbgm  time="1000"  ]
 [bg  storage="kyousitu.png"  time="1000"  ]
 [tb_show_message_window  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="学校_kobayuu.ogg"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="学校_kobayuu.ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #
 ある水曜日の昼休み、昼食を食べ終え眠気が出始めていた。[p]

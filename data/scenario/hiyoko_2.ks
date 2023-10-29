@@ -4,7 +4,7 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="fadeIn"  storage="家昼.PNG"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  fadein="true"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  fadein="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #唯他敬介、ゆうこ
@@ -41,7 +41,7 @@
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[stopbgm  time="1000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="hiyoko_3.ks"  target="*start"  ]
 [s  ]

@@ -2,7 +2,7 @@
 
 *start
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="music.ogg"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="music.ogg"  fadein="true"  ]
 [tb_show_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="教室.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]

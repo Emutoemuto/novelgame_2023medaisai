@@ -32,7 +32,7 @@
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="家昼.PNG"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  fadein="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #唯他敬介
@@ -78,7 +78,7 @@
 [_tb_end_text]
 
 [chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  ]
-[stopbgm  time="1000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 「まあ、それはいいや……」[p]
@@ -124,7 +124,7 @@
 
 [tb_hide_message_window  ]
 [chara_hide_all  time="1000"  wait="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="ミステリーBGM1.4.mp3"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="ミステリーBGM1.4.mp3"  fadein="true"  ]
 [chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター.png"  width="473"  height="670"  left="280"  top="64"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -143,7 +143,7 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[stopbgm  time="1000"  fadeout="false"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 それで終わり。音楽はブツッという音がして鳴りやんだ。[p]

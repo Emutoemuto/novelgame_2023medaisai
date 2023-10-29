@@ -4,6 +4,7 @@
 
 [bg  time="1000"  method="crossfade"  storage="家昼.PNG"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  fadein="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #唯他敬介
@@ -50,5 +51,6 @@
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [jump  storage="hiyoko_12.ks"  target="*start"  ]
 [s  ]

@@ -11,16 +11,16 @@
 あんな風に誰かが消えていくはもう2度とごめんだ。だからこそ、俺は魔術を習得したんだ。[p]
 （あの時の光景は久しぶりに見たな。何で今更？）[p]
 （しかも、ジイサンに助けられる直前で誰かに声をかけられたような……）[p]
+[_tb_end_text]
+
+[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_怒り顔.png"  width="451"  height="642"  left="299"  top="69"  reflect="false"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="学校_kobayuu.ogg"  fadein="true"  ]
+[tb_start_text mode=1 ]
 #ゆうこ
 「ねえ！」[p]
 「ねえってば！」[p]
 #唯他敬介
 「え？」[p]
-[_tb_end_text]
-
-[chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_怒り顔.png"  width="451"  height="642"  left="299"  top="69"  reflect="false"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="学校_kobayuu.ogg"  fadein="true"  ]
-[tb_start_text mode=1 ]
 #ゆうこ
 「え？じゃないよ！」[p]
 「何寝てんのよ！今日からは時間あるんだからピョン君の情報集めに行くわよ！」[p]
@@ -28,14 +28,15 @@
 「分かってるよ」[p]
 [_tb_end_text]
 
+[stopbgm  time="1000"  fadeout="true"  ]
 [bg  time="1000"  method="fadeInRight"  storage="道路昼.jpg"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="music.ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 「今日はどこまで行くの？」[p]
 違和感[p]
 [_tb_end_text]
 
-[stopbgm  time="1000"  fadeout="true"  ]
 [chara_mod  name="ゆうこ"  time="600"  cross="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
@@ -59,6 +60,7 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [l  ]
 [tb_start_text mode=1 ]
 #唯他敬介
@@ -92,7 +94,7 @@
 [_tb_end_text]
 
 [chara_mod  name="ヒヨコのマスター"  time="600"  cross="true"  storage="chara/8/ノベルゲー　マスター_キマリ.png"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #ヒヨコのマスター
 「ハハッ、唯他か！」[p]
@@ -172,7 +174,7 @@
 [playbgm  volume="100"  time="1000"  loop="false"  storage="魔力弾.mp3"  ]
 [tb_image_show  time="1000"  storage="default/雷ビームpng.png"  width="800"  height="800"  x="65"  y="-84"  _clickable_img=""  name="img_57"  ]
 [stopbgm  time="1000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 「ぐあっ！！」[p]
@@ -230,7 +232,7 @@
 [tb_hide_message_window  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_show_message_window  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
 その時、不思議なことが起こった。俺とピョンは１つになり、魔力が湧き上がってきた。[p]

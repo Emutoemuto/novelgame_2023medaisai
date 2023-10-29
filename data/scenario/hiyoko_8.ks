@@ -2,7 +2,7 @@
 
 *start
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="学校_kobayuu.ogg"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="学校_kobayuu.ogg"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="kyousitu.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]

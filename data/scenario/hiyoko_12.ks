@@ -14,7 +14,7 @@
 [_tb_end_text]
 
 [chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター.png"  width="435"  height="616"  left="300"  top="65"  reflect="false"  ]
-[playbgm  volume="60"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="戦闘曲1.1.mp3"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #ヒヨコのマスター
 「やっと来たか。A-09を引き渡す決心はついたか？」[p]
@@ -43,7 +43,6 @@
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="atmosphere2.mp3"  ]
 [tb_image_show  time="1000"  storage="default/イラスト_刀.png"  width="686"  height="484"  x="148"  y="20"  _clickable_img=""  name="img_18"  ]
 [tb_start_text mode=1 ]
 #唯他敬介
@@ -173,7 +172,7 @@
 「うおおおおおおおおお!!!」[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="斬撃音.mp3"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="斬撃音.mp3"  fadein="true"  ]
 [tb_image_show  time="1000"  storage="default/斬撃エフェクト.png"  width="1072"  height="1072"  x="-34"  y="-257"  _clickable_img=""  name="img_68"  ]
 [tb_image_hide  time="1000"  ]
 [chara_show  name="ヒヨコのマスター"  time="1000"  wait="true"  storage="chara/8/ノベルゲー　マスター_叫び.png"  width="479"  height="677"  left="283"  top="34"  reflect="false"  ]
@@ -253,7 +252,7 @@
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
 [l  ]
-[stopbgm  time="1000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [jump  storage="hiyoko_13.ks"  target="*start"  ]
 [s  ]

@@ -2,7 +2,7 @@
 
 *start
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="学校_kobayuu.ogg"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="学校_kobayuu.ogg"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="kyousitu.png"  ]
 [chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ.png"  width="402"  height="569"  left="378"  top="45"  reflect="false"  ]
 [tb_show_message_window  ]

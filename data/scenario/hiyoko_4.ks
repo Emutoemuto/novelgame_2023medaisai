@@ -4,7 +4,7 @@
 
 [bg  time="1000"  method="crossfade"  storage="家昼.PNG"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  fadein="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ヒヨコ
@@ -29,7 +29,7 @@
 
 [stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="music.ogg"  fadein="true"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="music.ogg"  fadein="true"  ]
 [bg  time="1000"  method="fadeIn"  storage="道路昼.jpg"  ]
 [chara_show  name="ヒヨコ"  time="0"  wait="true"  storage="chara/4/ノベルゲー　ひよこ.png"  width="355"  height="504"  left="504"  top="28"  reflect="false"  ]
 [chara_show  name="ゆうこ"  time="0"  wait="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  width="466"  height="661"  left="86"  top="55"  reflect="false"  ]

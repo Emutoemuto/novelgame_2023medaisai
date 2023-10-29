@@ -12,7 +12,7 @@
 [_tb_end_text]
 
 [chara_show  name="ヒヨコ"  time="1000"  wait="true"  storage="chara/4/ノベルゲー　ひよこ_威嚇.png"  width="413"  height="586"  left="279"  top="38"  reflect="false"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #唯他敬介（主人公）
 （ヒヨコにしては、ちょっと大きくないか……？）[p]
