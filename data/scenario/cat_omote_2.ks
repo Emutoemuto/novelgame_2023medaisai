@@ -35,6 +35,7 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="山昼.jpg"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="autumn_insects1_(1).mp3"  ]
 [tb_start_text mode=1 ]
 #？？
 （あっ、起きた）[p]
@@ -190,4 +191,5 @@
 俺はぱらりとページを捲った。[p]
 [_tb_end_text]
 
+[stopse  time="1000"  buf="0"  ]
 [jump  storage="cat_omote_3.ks"  target="*スタート"  ]

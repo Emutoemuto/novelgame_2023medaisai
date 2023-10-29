@@ -7,7 +7,7 @@
 [mask_off  time="1000"  effect="fadeOut"  ]
 [playse  volume="50"  time="1000"  buf="0"  storage="magazine1.mp3"  ]
 [wait  time="2000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="木簡三重奏（猫ルート）.mp3"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="木簡三重奏（猫ルート）.mp3"  ]
 [tb_start_text mode=1 ]
 #
 次のページ。[p]
@@ -43,6 +43,7 @@
 [bg  time="1000"  method="crossfade"  storage="山昼.jpg"  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/無題14_20231009135335.png"  width="680"  height="680"  left="-61"  top="-22"  reflect="false"  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_困り顔_(1).png"  width="760"  height="1030"  left="336"  top="2"  reflect="false"  ]
+[playse  volume="60"  time="1000"  buf="0"  storage="autumn_insects1_(1).mp3"  loop="true"  ]
 [tb_start_text mode=1 ]
 #
 ほのぼのとした内容だ。[r]特に何か気になる点はない。[p]
@@ -53,7 +54,7 @@
 
 [_tb_end_text]
 
-[stopbgm  time="1000"  ]
+[stopse  time="1000"  buf="0"  ]
 [delay  speed="100"  ]
 [tb_start_text mode=1 ]
 #ねこ
@@ -62,6 +63,7 @@
 
 [delay  speed="30"  ]
 [wait  time="3000"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="ミステリーBGM1.4.mp3"  ]
 [tb_start_text mode=1 ]
 #
 「えっ？」[p]
@@ -128,6 +130,7 @@
 
 [_tb_end_text]
 
+[stopbgm  time="1000"  ]
 [wait  time="2500"  ]
 [delay  speed="100"  ]
 [tb_start_text mode=1 ]

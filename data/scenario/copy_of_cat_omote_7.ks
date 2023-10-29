@@ -6,6 +6,8 @@
 [bg  time="1000"  method="crossfade"  storage="1701.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [delay  speed="70"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="magazine1.mp3"  ]
+[wait  time="3000"  ]
 [tb_start_text mode=1 ]
 #日記？　記入時期不明
 ゆうこ が死んだ。いつも一緒にいたのに。どうしてこんなことになったんだ。ねこを探すために珍しく別々に行動して、それで ゆうこ があんな目に。もう、ゆうこ が居ない。ゆうこ はいない。ゆうこ はしんだ。一人で秘密基地にきた。いつも二人っきりで来たはずのここに、今は俺一人。つらい。ほんとうにつらい。学校も、帰り道も、家も、[p]
@@ -17,11 +19,13 @@
 
 [_tb_end_text]
 
+[delay  speed="100"  ]
 [tb_start_text mode=1 ]
 白い花を君に。[p]
 [_tb_end_text]
 
 [delay  speed="30"  ]
+[wait  time="2000"  ]
 [tb_start_text mode=1 ]
 #
 全てが書かれていた。[p]

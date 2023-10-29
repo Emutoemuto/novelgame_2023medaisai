@@ -18,7 +18,7 @@
 [wait  time="3000"  ]
 [delay  speed="30"  ]
 [resetfont  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_通常.png"  width="680"  height="680"  ]
 [tb_start_text mode=1 ]
 #

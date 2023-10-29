@@ -43,6 +43,7 @@
 [bg  time="1000"  method="crossfade"  storage="山昼.jpg"  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_困り顔_(1).png"  width="760"  height="1030"  left="345"  top="5"  reflect="false"  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/無題14_20231009135335.png"  width="680"  height="680"  left="-60"  top="-5"  reflect="false"  ]
+[playse  volume="60"  time="1000"  buf="0"  storage="autumn_insects1_(1).mp3"  ]
 [tb_start_text mode=1 ]
 #
 そこに記されていた内容は、[r]人肌を感じられるほど生き生きと感じられた。[p]
@@ -134,4 +135,5 @@
 
 [_tb_end_text]
 
+[stopse  time="1000"  buf="0"  ]
 [jump  storage="copy_of_cat_omote_5.ks"  target=""  ]

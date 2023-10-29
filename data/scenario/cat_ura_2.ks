@@ -1,10 +1,10 @@
 [_tb_system_call storage=system/_cat_ura_2.ks]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
 [bg  time="1000"  method="crossfade"  storage="家夜.PNG"  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_閉眼.png"  width="680"  height="680"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
 [tb_start_text mode=1 ]
 #
 ねこっていうのはやはりよく眠るらしい。[p]

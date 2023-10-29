@@ -34,7 +34,7 @@
 
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/ツリー開.png"  width="350"  height="350"  x="265"  y="21"  _clickable_img=""  name="img_9"  ]
+[tb_image_show  time="1000"  storage="default/ツリー開.png"  width="350"  height="350"  x="265"  y="21"  _clickable_img=""  name="img_10"  ]
 [tb_start_text mode=1 ]
 それは、紛れもないクリスマスツリーだった。[p]
 俺の背丈ほどの大きさのそれ。[r]あと少しで天井に届きそうなほどだ。[p]
@@ -292,7 +292,8 @@
 何事かと思い、視線を奥に送る。[p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/ツリー閉2.png"  width="460"  height="256"  x="209"  y="89"  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/ツリー閉2.png"  width="460"  height="256"  x="209"  y="89"  _clickable_img=""  name="img_42"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="木簡三重奏（猫ルート）.mp3"  ]
 [tb_start_text mode=1 ]
 その奥には、ツリーが屹立していた。[r]ベツレヘム占いのツリー。[p]
 そして、光っていたのはその天辺に飾られていた白い花だった。[p]
@@ -381,6 +382,7 @@
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0xffffff"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide  name="ゆうこ"  time="1000"  wait="true"  pos_mode="true"  ]
 [wait  time="3000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]

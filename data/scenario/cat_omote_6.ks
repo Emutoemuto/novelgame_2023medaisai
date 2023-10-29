@@ -34,7 +34,7 @@
 [bg  time="1000"  method="crossfade"  storage="1701.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="magazine1.mp3"  ]
 [wait  time="2000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="木簡三重奏（猫ルート）.mp3"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="木簡三重奏（猫ルート）.mp3"  ]
 [tb_start_text mode=1 ]
 #ねこ　2023年6月26日
 あの日、梅雨終わりの大雨が降ってたの。[p]
@@ -68,9 +68,11 @@
 そして、死んだ。[p]
 [_tb_end_text]
 
+[wait  time="3000"  ]
 [bg  time="1000"  method="crossfade"  storage="山昼.jpg"  ]
 [chara_show  name="ゆうこ？"  time="1000"  wait="true"  storage="chara/6/ノベルゲー　女友達_真顔_(1).png"  width="760"  height="1030"  left="338"  top="-1"  reflect="false"  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/閉猫_閉眼_(1).png"  width="680"  height="680"  left="-95"  top="-8"  reflect="false"  ]
+[playse  volume="70"  time="1000"  buf="0"  storage="autumn_insects1_(1).mp3"  fadein="true"  loop="true"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
 「私はねこと一緒に死んだ」[p]
@@ -163,4 +165,5 @@
 俺はその場に立膝をして床に落ちたままの日記帳を覗き見た。[r]視界の隅に 猫の姿をしたゆうこ も、[r]瞳孔を目いっぱい広げながら最終頁に視線を送っているのが見えた。[p]
 [_tb_end_text]
 
+[stopse  time="1000"  buf="0"  ]
 [jump  storage="cat_omote_7.ks"  target=""  ]

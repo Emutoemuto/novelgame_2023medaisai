@@ -6,7 +6,7 @@
 [chara_show  name="ねこ"  time="1000"  wait="true"  width="680"  storage="chara/2/閉猫_通常.png"  height="680"  left="-94"  top="-13"  reflect="false"  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  width="760"  height="1030"  left="329"  top="11"  reflect="false"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="裏山BGM（ツチノコ）.ogg"  ]
 [tb_start_text mode=1 ]
 #
 山道を登ると、一か所だけフェンスの切れ目が見える。[p]
@@ -176,7 +176,7 @@
 [chara_hide  name="ゆうこ"  time="1000"  wait="true"  pos_mode="true"  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  width="760"  height="1030"  left="344"  top="11"  reflect="false"  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_怪訝.png"  width="680"  height="680"  left="-108"  top="-8"  reflect="false"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="ミステリーBGM1.4.mp3"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="ミステリーBGM1.4.mp3"  ]
 [tb_start_text mode=1 ]
 #ねこ
 「あんた、やっちゃったんだね。[r]あのおまじない」[p]

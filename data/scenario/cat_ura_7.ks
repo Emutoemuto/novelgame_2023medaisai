@@ -3,8 +3,8 @@
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/閉猫_通常_(1).png"  width="680"  height="680"  left="146"  top="-7"  reflect="false"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
 #
 ねこは俺の半歩前を歩く。[p]

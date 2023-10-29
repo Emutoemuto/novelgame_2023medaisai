@@ -32,6 +32,7 @@
 [wait  time="1500"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="1701.png"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="木簡三重奏（猫ルート）.mp3"  ]
 [tb_start_text mode=1 ]
 #ねこ　2023年6月26日
 あの日、梅雨終わりの大雨が降ってたの。[p]
@@ -56,6 +57,8 @@
 #
 [_tb_end_text]
 
+[stopbgm  time="1000"  ]
+[wait  time="3000"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="自動車事故.mp3"  ]
 [wait  time="3000"  ]
 [tb_start_text mode=1 ]

@@ -6,7 +6,7 @@
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達.png"  width="760"  height="1030"  left="337"  top="4"  reflect="false"  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_怪訝.png"  width="680"  height="680"  left="-101"  top="-16"  reflect="false"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="autumn_insects1_(1).mp3"  loop="true"  ]
+[playse  volume="60"  time="1000"  buf="0"  storage="autumn_insects1_(1).mp3"  loop="true"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #
 丁字路をまっすぐ進めば俺の家。[r]右に進めばゆうこの家に続く。[p]

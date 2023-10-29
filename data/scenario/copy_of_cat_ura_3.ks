@@ -5,7 +5,7 @@
 [tb_show_message_window  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_通常.png"  width="680"  height="680"  left="154"  top="-12"  reflect="false"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="autumn_insects1_(1).mp3"  loop="true"  ]
+[playse  volume="60"  time="1000"  buf="0"  storage="autumn_insects1_(1).mp3"  loop="true"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #
 家を出て少しすると、[r]山間を拓いた小道につながる。[p]
@@ -15,9 +15,9 @@
 
 *バッグの場所２
 
-[glink  color="black"  storage="copy_of_cat_ura_3.ks"  size="20"  x="-10"  y="265"  width=""  height=""  text="どうしてバッグの場所を知ってたんだ？"  _clickable_img=""  target="*バッグの場所"  ]
-[glink  color="black"  storage="copy_of_cat_ura_3.ks"  size="20"  x="-8"  y="319"  width=""  height=""  text="ねこって可愛いよな"  _clickable_img=""  target="*可愛いよな"  ]
-[glink  color="black"  storage="copy_of_cat_ura_3.ks"  size="20"  x="-10"  y="373"  width=""  height=""  text="ゆうこについて"  _clickable_img=""  target="*ゆうこについて"  ]
+[glink  color="black"  storage="copy_of_cat_ura_3.ks"  size="20"  x="-8"  y="206"  width=""  height=""  text="どうしてバッグの場所を知ってたんだ？"  _clickable_img=""  target="*バッグの場所"  ]
+[glink  color="black"  storage="copy_of_cat_ura_3.ks"  size="20"  x="-12"  y="263"  width=""  height=""  text="ねこって可愛いよな"  _clickable_img=""  target="*可愛いよな"  ]
+[glink  color="black"  storage="copy_of_cat_ura_3.ks"  size="20"  x="-11"  y="318"  width=""  height=""  text="ゆうこについて"  _clickable_img=""  target="*ゆうこについて"  ]
 [s  ]
 *バッグの場所
 

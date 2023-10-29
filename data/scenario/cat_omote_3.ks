@@ -9,7 +9,7 @@
 [mask_off  time="1000"  effect="fadeOut"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="magazine1.mp3"  ]
 [wait  time="2000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="木簡三重奏（猫ルート）.mp3"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="木簡三重奏（猫ルート）.mp3"  ]
 [tb_start_text mode=1 ]
 #
 ページを繰る。[p]

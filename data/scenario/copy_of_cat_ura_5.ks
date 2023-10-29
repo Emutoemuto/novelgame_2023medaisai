@@ -5,7 +5,7 @@
 [tb_show_message_window  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_閉眼.png"  width="680"  height="680"  left="137"  top="-11"  reflect="false"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
 [tb_start_text mode=1 ]
 #
 夜が更け、[r]朝に移ろっていくことは真理に違いない。[p]
@@ -144,7 +144,7 @@
 
 [delay  speed="30"  ]
 [wait  time="3000"  ]
-[playbgm  volume="20"  time="1000"  loop="true"  storage="ミステリーBGM1.4.mp3"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="ミステリーBGM1.4.mp3"  ]
 [tb_start_text mode=1 ]
 #
 「ちょっとまってよ、なんだよ、それ」[p]

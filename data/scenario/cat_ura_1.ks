@@ -1,11 +1,13 @@
 [_tb_system_call storage=system/_cat_ura_1.ks]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [bg  time="1000"  method="crossfade"  storage="家昼.PNG"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達.png"  width="760"  height="1030"  left="346"  top="34"  reflect="false"  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/閉猫_通常.png"  width="680"  height="680"  left="-89"  top="-15"  reflect="false"  ]
-[wait  time="2000"  ]
 [tb_show_message_window  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
+[wait  time="2000"  ]
 [tb_start_text mode=1 ]
 程なくして、俺たちはねこを連れて帰宅した。[p]
 もちろん、ゆうこも一緒である。[p]
@@ -313,7 +315,7 @@ CMの音ではない。[r]なぜなら、その投げかけは女性の声だっ
 [_tb_end_text]
 
 [wait  time="3000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="ミステリーBGM1.4.mp3"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="ミステリーBGM1.4.mp3"  ]
 [tb_start_text mode=1 ]
 #
 「えっ？」[p]
@@ -401,7 +403,7 @@ CMの音ではない。[r]なぜなら、その投げかけは女性の声だっ
 
 [stopbgm  time="1000"  ]
 [wait  time="1500"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="家BGM1.1.mp3"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #

@@ -2,12 +2,14 @@
 
 *neko_start
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_show_message_window  ]
 [font  size="39"  color="0xadf0c8"  ]
 [tb_show_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [chara_show  name="ゆうこ"  time="1000"  wait="true"  storage="chara/3/ノベルゲー　女友達_真顔.png"  width="760"  height="1030"  left="328"  top="-3"  reflect="false"  ]
 [chara_show  name="ねこ"  time="1000"  wait="true"  storage="chara/2/無題14_20231009135335.png"  width="680"  height="680"  left="-62"  top="-2"  reflect="false"  ]
-[bg  time="1000"  method="crossfade"  storage="urayama.png"  ]
 [tb_start_text mode=1 ]
 #
 ねこルート[p]
@@ -15,7 +17,7 @@
 [_tb_end_text]
 
 [resetfont  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="動物との邂逅シーン（ツチノコ）.ogg"  ]
 [tb_start_text mode=1 ]
 #ゆうこ
 （もぅ、本当にせっかちなんだからなぁ）[p]

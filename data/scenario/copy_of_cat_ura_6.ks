@@ -3,9 +3,9 @@
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [chara_hide  name="ねこ"  time="1000"  wait="true"  pos_mode="true"  ]
 [bg  time="1000"  method="crossfade"  storage="道路昼.jpg"  ]
+[tb_show_message_window  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="dashing.mp3"  ]
-[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
 いつもの道。[p]
